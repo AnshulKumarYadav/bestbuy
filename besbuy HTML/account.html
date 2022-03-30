@@ -1,44 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/322b14b2ff.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/bestbuy css/navbar.css">
+    <title>Best Buy:Create an Account</title>
+    <link rel="stylesheet" href="/bestbuy/bestbuy css/account.css">
 </head>
-<body>
-    <header>
-        <div id="nav1">
-            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/BestBuy_Logo_2020-190616.png;maxHeight=80;maxWidth=136">
-            <i class="fa-solid fa-bars"></i>
-            <form>
-                <input type="text" placeholder="Search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </form>
-            <i class="fa-solid fa-map-location-dot"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-        </div>
-        <div id="hr"></div>
-        <div id="nav2">
-            <div id="shop">
-                <P><a href="shop.html">Shop</a></P>
-                <P><a href="tataltech-membership">Totaltech membership</a></P>
-                <P><a href="credit-card.html">Credit card</a></P>
-                <P><a href="gift-card.html">Gift card</a></P>
-            </div>
-            <div id="order">
-                <p><a href="account.html">Account</a></p>
-                <p><a href="recentlyviewed.html">Recently Viewed</a></p>
-                <p><a href="order-status.html">Order Status</a></p>
-                <p><a href="saved-items.html">Saved Items</a></p>
-            </div>
-        </div>
-    </header>
 
-    <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro?
-    </h1>
+<body>
+    <nav>
+        <div>
+            <div>
+                <a href="/bestbuy/besbuy HTML/index.html"><img src="https://www.bestbuy.com/~assets/bby/_com/header-footer/images/bby_logo-a7e90594729ed2e119331378def6c97e.png" alt="no image"></a>
+            </div>
+            <div></div>
+            <div>
+                <a href="/bestbuy/besbuy HTML/index.html">
+                    <p>Return to previous page</p>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div id="strip"></div>
+    <div id="createAccount">
+        <h3>Create an Account</h3>
+        <p>Shopping for your business? <a href=""> Create a business account.</a></p>
+        <form id="form">
+            <input id="fName" type="text" placeholder="First Name">
+            <input id="lName" type="text" placeholder="Last Name">
+            <input id="email" type="email" placeholder="Email Address">
+            <input id="pass" type="password" placeholder="Password">
+            <input id="confirmPass" type="password" placeholder="Confirm Password">
+            <input id="mobile" type="number" placeholder="Mobile Phone Number">
+            <p>
+                <input type="checkbox" id="checkbox"><label for=""> Use for Account Recovery.</label>
+            </p>
+            <input id="submit" type="submit" value="Create an Account">
+        </form>
+        <p>or</p>
+        <p>
+        <a id="withGoogle" class="signInWith"target="_new"
+            href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Fwww.bestbuy.com%3Fid%3Dauth963604&response_type=code%20permission%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=369075948042-gku8boqssoqo5bdnkpg2s43mscgsk68i.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fwww.bestbuy.com&access_type=offline&prompt=consent&origin=https%3A%2F%2Fwww.bestbuy.com&gsiwebsdk=2&flowName=GeneralOAuthFlow">
+            <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" alt="">
+            <span>
+                &nbsp Sign up with Google
+            </span> 
+        </a>
+    </p>
+        <p>
+            By continuing you agree to our <a href=""> Terms and Conditions</a>, our <a href=""> Privacy Policy</a>,
+            and the <a href=""> My Best Buy® Program Terms.</a>
+        </p>
+        <hr>
+        <p id="signIn"><b> Already have an account?</b>
+            <a href="/bestbuy/besbuy HTML/login.html"> Sign in</a>
+        </p>
+    </div>
+
+    <!-- footer Division -->
+    <div id="footer">
+        <div id="footChild">
+            <div>
+                <p><a href=""> Terms and Conditions </a>&nbsp | &nbsp
+                    <a href=""> PrivacyInterest </a>&nbsp | &nbsp
+                    <a href=""> Based Ads</a>
+                </p>
+                <p><a href="">Mobile Site</a></p>
+                <p>
+                    Prices and offers are subject to change. © 2022 Best Buy. All rights
+                    reserved. BEST BUY, the BEST BUY logo, the Tag Design, MY BEST BUY, and
+                    BESTBUY.COM
+                    are trademarks of Best Buy and its affiliated companies.
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
+<script src="/bestbuy/bestbuy js/account.js"></script>

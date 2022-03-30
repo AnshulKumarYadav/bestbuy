@@ -1,0 +1,160 @@
+body{
+    background-color: #f0f2f4;
+}
+
+nav {
+    background-color: #0046be;
+    height: 70px;
+    margin: -8px -8px 0px -8px;
+    /* border: 2px solid green; */
+}
+
+nav>div {
+    display: flex;
+    margin: auto;
+    padding: 12px 0px;
+    color: white;
+    justify-content: space-around;
+}
+
+nav>div>div>a>img {
+    height: 48px;
+}
+
+nav>div a {
+    text-decoration: none;
+    color: white;
+    font-family: "Human BBY Digital", "Human Fallback", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#strip{
+    height: 5px;
+    /* border: 1px solid red; */
+    background-color: white;;
+    margin: 0px -8px;
+}
+#createAccount {
+    width: 360px;
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 4px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    font-family: "Human BBY Digital", "Human Fallback", Arial, Helvetica, sans-serif;
+}
+
+#createAccount p,hr {
+    font-size: 13px;
+    width: 330px;
+    margin: auto;
+}
+a:hover{
+    text-decoration: underline;
+}
+a{
+    color: #0046be;
+    text-decoration: none;
+}
+#createAccount h3+p{
+    margin-bottom: 15px;
+    
+}
+#createAccount h3+ p a{
+    text-decoration: underline;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#form input {
+    width: 326px;
+    font-size: 15px;
+    height: 41px;
+    margin: 12px 0px;
+    border-radius: 4px;
+    border: 1px solid rgb(168, 166, 166);
+}
+
+::placeholder {
+    color: black;
+    font-weight: 600;
+    padding: 0px 10px;
+}
+
+#form #submit {
+    background-color: #0046be;
+    border-radius: 3px;
+    color: white;
+    height: 44px;
+    width: 330px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#form #checkbox {
+    width: 18px;
+    height: 18px;
+    border: 1px solid blue;
+}
+
+#form p {
+    margin: auto;
+    text-align: left;
+    margin-top: -15px;
+    align-items: center;
+}
+
+#createAccount .signInWith {
+    width: 330px;
+    height: 42px;
+    margin: auto;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #0046be;
+    color: #0046be;
+    border-radius: 4px;
+    text-decoration: none;
+}
+#withGoogle:hover{
+    color: white;
+}
+.signInWith:hover {
+    background-color: rgb(4, 4, 100);
+}
+img {
+    height: 18px;
+}
+#signIn{
+    padding-bottom: 20px;
+    /* border: 1px solid blue; */
+}
+#footer{
+    /* border: 1px solid yellow; */
+    background-color: #f0f2f4;
+    margin: -8px;
+}
+#footChild{
+    /* height: 100px; */
+    margin: 80px 0px 0px 0px;
+    background-color: white;
+    border-top: 1px solid rgb(211, 208, 208);
+}
+#footChild>div{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    font-size: 12px;
+    font-family: "Human BBY Digital", "Human Fallback", Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+}
+
