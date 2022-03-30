@@ -40,13 +40,60 @@ div>h2:last-child{
 
 
 
+.box1{
+  height:100%;
+  width:40%;
+  margin-left:800px;
+  border:1px solid black;
+  
+}
+
+
+
+
+.box86{
+  height:100%;
+  width:100%;
+  margin:auto;
+  display:flex;
+  padding-top:100px;
+  margin-top:-245px;
+  background-color:rgb(203, 224, 250);
+  
+  border:1px solid black;
+  }
+  .box87{
+  height:100%;
+  width:80%;
+  margin:auto;
+  }
+  .box88{
+  height:100%;
+  width:80%;
+  margin:auto;
+  }
+  .box89{
+  height:100%;
+  width:80%;
+  margin:auto;
+  }
+  .box90{
+  height:100%;
+  width:80%;
+  margin:auto;
+  }
+
+
+
+
+
 #pricing{
     display:grid;
     grid-template-columns:repeat(4,1fr);
     grid-template-rows:auto;
     gap:20px;
-    width:60%;
-    margin:auto;
+    width:100%;
+    border-bottom:1px solid black;
 }
 #pricing>div{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -65,51 +112,92 @@ div>h2:last-child{
 
 .top-section{
 height:350px;
-width:70%;
+width:100%;
 margin:auto;
 display:flex;
-margin-bottom:60px;
+margin-top:50px;
+margin-bottom:30px;
 }
 .box11{
-width:48%;
-height:100%;
-margin:auto;
-background-color:#3470E4;
-border-radius:15px;
-padding:15px;
-box-sizing:border-box;
-color:white;
+  height:350px;
+  width:100%;
+  margin:auto;
+  display:flex;
+  margin-bottom:60px;
+  border-right:1px solid grey;
 }
+.box91{
+  width:48%;
+  height:100%;
+  margin:auto;
+  
+  border-radius:15px;
+  padding:15px;
+  box-sizing:border-box;
+  color:black;
+  }
+  .box92{
+    width:48%;
+    height:100%;
+    margin:auto;
+    border-radius:15px;
+    padding:15px;
+    box-sizing:border-box;
+    color:black;
+    }
 .box12{
-width:48%;
-height:100%;
-margin:auto;
-background-color:#6E71CC;
-border-radius:15px;
-padding:15px;
-box-sizing:border-box;
-color:white
+  height:350px;
+  width:100%;
+  margin:auto;
+  display:flex;
+  margin-bottom:60px;
 }
+.box93{
+  width:48%;
+  height:100%;
+  margin:auto;
+  
+  border-radius:15px;
+  padding:15px;
+  box-sizing:border-box;
+  color:black;
+  }
+  .box94{
+    width:48%;
+    height:100%;
+    margin:auto;
+    
+    border-radius:15px;
+    padding:15px;
+    box-sizing:border-box;
+    color:black;
+    }
+    
+
 
 
 
 .moretop-section{
 height:200px;
-width:205%;
+width:100%;
 margin:auto;
 display:flex;
 margin-bottom:60px;
+border:1px solid black;
+background-color:black;
 }
 .box15{
-width:48%;
-height:200px;
-
-background-color:black;
-border-radius:15px;
-padding:15px;
-box-sizing:border-box;
+width:70%;
+height:100%;
+border:1px solid black;
+padding-left:150px;
 color:white;
 }
+.box95{
+  width:30%;
+  height:200px;
+  border:1px solid black;
+  }
 
 
 
@@ -119,14 +207,16 @@ width:100%;
 margin:auto;
 display:flex;
 margin-bottom:60px;
+background-color:rgb(144, 188, 238);
+border:1px solid black;
 }
 .box16{
 width:50%;
-height:500px;
-background-color:grey;
-color:black;
-text-align:center;
+height:100%;
 
+color:black;
+text-align:left;
+margin-left:400px;
 }
 .box17{
 width:50%;
@@ -787,5 +877,11 @@ margin:auto;
 display:flex;
 color:black;
 }
+
+
+
+
+
+  
 
 
