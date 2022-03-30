@@ -49,11 +49,11 @@ nav{
 }
 #abovediv>div:nth-child(1){
     width: 40%;
-    height: 80%px;
+    height: 80%;
 }
 #abovediv>div:nth-child(2){
     width: 35%;
-    height: 80%px;
+    height: 80%;
 }
 #abovediv>div>div img{
     width: 272px;
@@ -402,12 +402,24 @@ footer>.box-1{
     text-align: center;
     
 }
+footer>.box-1>div>p>i{
+    font-size: 120px;
+    color: rgb(110, 110, 110);
+}
+footer>.box-1>div>a{
+  text-decoration: none;
+}
+footer>.box-1>div>a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
  
 footer>.box-1>div{
     width: 20%;
     height: 100%;
     margin: auto;
-    border: 1px solid black;
 }
 footer>.box-2{
     width: 95%;
@@ -475,25 +487,5 @@ footer>.last>div>p{
     padding: 35px 10px 20px 10px;
 }
 
-@media only screen and (min-width: 421px) and (max-width: 780px){
-    #navabove>p{
-        text-align: center;
-        font-size: 15px;
-        font-weight: 600;
-        color: black;
-        padding-top: 7px;
-    }
-    #abovediv>div:nth-child(1){
-        width: 20%;
-        height: 40%px;
-    }
-    #abovediv{
-        background-color: #ebebeb;
-        height: 200px; 
-        display: block;
-    }
-    #abovediv>div>div img{
-        width: 120px;
-        height: 30px;
-    }
-}
+
+
