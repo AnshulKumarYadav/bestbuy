@@ -37,6 +37,18 @@ body{
     background-color: rgb(3, 3, 121);
     color: #fff;
 }
+#addIems{
+    background-color: #fff;
+    margin-top: 20px;
+    
+}
+#addItems>div{
+    width: 90%;
+    margin: auto;
+}
+#addItems .hr{
+    background-color: grey;
+}
 #saved-items{
     background-color: #fff;
     margin-top: 20px;
@@ -62,6 +74,9 @@ body{
 #recently-viewed .hr{
     background-color: grey;
 }
+
+
+
 
 /* checkout part  */
 #checkout{
