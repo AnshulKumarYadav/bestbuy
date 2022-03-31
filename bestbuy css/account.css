@@ -136,16 +136,13 @@ hr{
     background-color: rgb(4, 4, 100);
 }
 img {
-    height: 18px;
+    height: 16px;
 }
 #signIn{
     padding-bottom: 20px;
     text-align: left;
-    /* font-size: px; */
-    /* border: 1px solid blue; */
 }
 #footer{
-    /* border: 1px solid yellow; */
     background-color: #f0f2f4;
     margin: -8px;
 }
