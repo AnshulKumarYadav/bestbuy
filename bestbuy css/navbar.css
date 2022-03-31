@@ -1,11 +1,11 @@
 header{
-    height: 100px;
+    height: 110px;
     background-color: rgb(2, 39, 161);
 }
 #nav1{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 10px;
 }
 #nav1>img{
     width: 80px;
@@ -43,12 +43,12 @@ form{
     justify-content: space-between;
 }
 #shop{
-    width: 45%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
 }
 #order{
-    width: 45%;
+    width: 43%;
     display: flex;
     justify-content: space-around;
 }

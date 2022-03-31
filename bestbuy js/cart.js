@@ -4,7 +4,7 @@
  cartItem.map(function(elem){
     var img = document.querySelector("#addImg");
     // img.src = elem.img;
-    img.src="https://pisces.bbystatic.com/image2//BestBuy_US/images/products/6401/6401735_sd.jpg;maxHeight=200;maxWidth=200";
+    img.src=elem.img;
 
     var name = document.querySelector("#addName");
     name.innerText=elem.name;
