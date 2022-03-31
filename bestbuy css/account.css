@@ -52,7 +52,7 @@ nav>div a {
     margin: auto;
 }
 #createAccount .para{
-font-size: 13px;
+font-size: 12px;
 text-align: left;
 }
 a:hover{
@@ -138,9 +138,10 @@ hr{
 img {
     height: 16px;
 }
-#signIn{
+#createAccount #signIn{
     padding-bottom: 20px;
     text-align: left;
+    font-size: 12px;
 }
 #footer{
     background-color: #f0f2f4;
