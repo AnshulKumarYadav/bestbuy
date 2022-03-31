@@ -94,7 +94,9 @@ hr{
     font-weight: 600;
     cursor: pointer;
 }
-
+#form #submit:hover{
+    background-color: rgb(4, 4, 100);
+}
 #form #checkbox {
     width: 18px;
     height: 18px;
