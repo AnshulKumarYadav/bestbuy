@@ -1,7 +1,4 @@
 var forSignIn = JSON.parse(localStorage.getItem("bestBuyUserDetails"));
-// console.log(forSignIn);
-// console.log("***********************************************************************");
-// console.log(forSignIn);
 document.querySelector("#form").addEventListener("submit", signInFunction);
 var signInArray = [];
 function signInFunction() {
