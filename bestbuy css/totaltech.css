@@ -1,0 +1,491 @@
+
+*{
+    margin: 0px;
+}
+
+#navabove{
+    width: 100%;
+    height: 35px;
+    background-color: #e0e6ef;
+}
+#navabove>p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    padding-top: 7px;
+}
+#navabove>p>span{
+    color: blue;
+}
+nav{
+    background-color: #0046be;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+}
+#page-title{
+    background-color: white;
+    padding-left: 180px;
+    height: 50px;
+    padding-top: 10px;
+
+}
+#alreary-member{
+    background-color: #f5f5f5;
+    padding-left: 180px;  
+    height: 30px;
+    padding-top: 15px;
+    font-weight: 600;
+}
+#alreary-member>p>span{
+    color: blue;
+}
+#abovediv{
+    background-color: #ebebeb;
+    height: 409px; 
+    display: flex;
+    justify-content: center;
+}
+#abovediv>div:nth-child(1){
+    width: 40%;
+    height: 80%;
+}
+#abovediv>div:nth-child(2){
+    width: 35%;
+    height: 80%;
+}
+#abovediv>div>div img{
+    width: 272px;
+    height: 40px;
+}
+#abovediv>div{
+    padding-top: 43px;
+}
+#abovediv>div h1{
+    color: #0046be;
+    padding-top: 20px;
+}
+#abovediv>div h1>span{
+    color: black;
+}
+#abovediv>div>p{
+    color: black;
+    padding-top: 20px;
+}
+#abovediv>div>h2{
+    color: black;
+    padding-top: 20px;
+    
+}
+#abovediv button{
+    width: 100%;
+    background-color: #ffe000;
+    text-align: center;
+    padding: 8px;
+    margin-top: 10px;
+    font-weight: 800;
+    border: none;
+
+    
+}
+#abovediv>div:nth-child(2)>img{
+    width: 100%;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+
+}
+#container>.box-1{
+    width: 90%;
+    padding-top: 60px;
+    margin: auto;
+    text-align: center;
+}
+#container>.box-1>h1{
+ font-size: 50px;
+}
+#container>.box-1>p{
+    width: 77%;
+    
+    margin: auto;
+    text-align: center;
+}
+#container>.box-2{
+    width: 55%;
+    height: 500px;
+    padding-top: 60px;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,200px);
+    gap: 20px;
+
+
+}
+
+#container>.box-2>div img{
+    width: 130px;
+    height: 110px;
+}
+#container>.box-2>div>p>a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#container>.box-3{
+    width: 80%;
+    height: 200px;
+    background-color: #0046be;
+    margin: auto;
+    padding: 16px 0px 0px 18px;
+    color: white;
+}
+#container>.box-3>div img{
+    width: 120px;
+    height: 50px;
+
+}
+#container>.box-3>h1{
+ padding-top: 10px;
+}
+#container>.box-3>p{
+    padding-top: 10px;
+}
+#container>.box-3>button{
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    background-color: #ffe000;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+
+}
+#container>.box-3>button:hover{
+    cursor: pointer;
+}
+#container>.box-4{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+}
+#container>.box-4>div:nth-child(2){
+    padding-top: 180px;
+    padding-left: 30px;
+    list-style: 22px;
+}
+#container>.box-4>div>div>p{
+    padding-top: 10px;
+    line-height: 20px;
+}
+#container>.box-4>div>div>a{
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: 600;
+
+    
+}
+#container>.box-4>div>div>a:hover{
+    text-decoration: underline;
+}
+#protection{
+    margin-top: 200px;
+}
+#protection>.box-1{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+}
+#protection>.box-1 h1{
+    padding: 120px 0px 0px 10px;
+    width: 70%;
+}
+#protection>.box-1 h3{
+    width: 70%;
+    padding-left: 10px;
+}
+#protection>.box-1 p{
+    padding: 10px 10px 10px 10px;
+    width: 80%;
+}
+#protection>.box-1 a{
+    padding: 20px 10px 10px 10px;
+    text-decoration: none;
+
+}
+#protection>.box-1 a:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+#protection>.box-1>div{
+    width: 90%;
+    height: 380px;
+}
+#protection>.box-2{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+}
+#protection>.box-2>div:nth-child(2){
+    padding-right: 10px;
+}
+#protection>.box-2 h1{
+    padding: 80px 0px 0px 25px;
+    width: 70%;
+}
+#protection>.box-2 h3{
+    width: 70%;
+    padding: 10px 0px 2px 25px;
+}
+#protection>.box-2 p{
+    padding: 10px 10px 10px 25px;
+    width: 80%;
+}
+#protection>.box-2 a{
+    padding: 20px 10px 10px 25px;
+    text-decoration: none;
+
+}
+#protection>.box-2 a:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+#protection>.box-3{
+    width: 75%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+}
+#protection>.box-3>div:nth-child(1){
+    padding-right: 20px;
+}
+#protection>.box-3 h1{
+    padding: 150px 0px 0px 25px;
+    width: 70%;
+}
+#protection>.box-3 h3{
+    width: 70%;
+    padding: 10px 0px 2px 25px;
+}
+#protection>.box-3 p{
+    padding: 10px 10px 10px 25px;
+    width: 80%;
+}
+#protection>.box-3 a{
+    padding: 20px 10px 10px 25px;
+    text-decoration: none;
+
+}
+#protection>h1{
+    padding: 0px 0px 40px 150px;
+    font-weight: bolder;
+    font-size: 36px;
+
+}
+#protection>.box-4{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+#protection>.box-4>div{
+    width: 22%;
+    height: 370px;
+    margin: auto;
+}
+#protection>.box-4 img{
+    width: 100%;
+    height: 50%;
+}
+#protection>.box-4>div>div{
+    margin-top: 6px;
+    padding-left: 5px;
+}
+#protection>.box-4>div>div>p{
+    padding-top: 10px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+#protection>.faqs{
+    text-align: center;
+    color: #0046be;
+    margin-top: 10px;
+
+}
+#protection>.faqs a{
+    text-decoration: none;
+    color: #0046be;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+hr{
+    width: 78%;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+#protection>.box-5{
+    background-color: #e0e6ef;
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+#protection>.box-5>div:nth-child(1){
+    width: 30%;
+    padding: 40px 0px 40px 40px;
+}
+#protection>.box-5>div img{
+    width: 100%;
+    height: 100%;
+}
+#protection>.box-5>div:nth-child(2){
+    padding: 80px 0px 15px 35px;
+    line-height: 25px;
+    width: 50%;
+}
+#protection>.box-5>div p{
+    padding-top: 10px;
+}
+#protection>.box-5>div a{
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}#protection>.box-5>div a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+#protection>#diclosures{
+    margin-top: 40px;
+}
+#protection>.diclosures{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+#protection>.diclosures p{
+    line-height: 27px;
+    padding: 20px 0px 40px 0px ;
+}
+#protection>.diclosures ol{
+    line-height: 25px;
+}
+#protection>.diclosures ol li{
+    padding-top: 10px;
+}
+footer{
+    height: auto;
+    background-color: #f0f2f4;
+    margin-top: 140px;
+}
+footer>.box-1{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    padding-top: 25px;
+    text-align: center;
+    
+}
+footer>.box-1>div>p>i{
+    font-size: 120px;
+    color: rgb(110, 110, 110);
+}
+footer>.box-1>div>a{
+  text-decoration: none;
+}
+footer>.box-1>div>a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
+ 
+footer>.box-1>div{
+    width: 20%;
+    height: 100%;
+    margin: auto;
+}
+footer>.box-2{
+    width: 95%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    padding-top: 25px;
+
+}
+footer>.box-2>div{
+    width: 22%;
+    height: 98%;
+    margin: auto;
+    padding-top: 10px;
+    line-height: 35px;
+}
+footer>.box-2>div:nth-child(4){
+    width: 34%;
+}
+footer>.box-2>div>a+h3{
+    padding-top: 20px;
+}
+footer>.box-2>div>a{
+    text-decoration: none;
+}
+footer>.box-2>div>a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer>.box-2>#contact{
+    background-color: white;
+    padding-left: 10px;
+    line-height: 70px;
+
+}
+footer>.box-2>#contact>.small-box-3 i{
+    color: #0046be;
+    padding-left: 35px;
+    font-size: 35px;
+    
+}
+footer>.box-2>#contact>.small-box-1 button{
+    background-color: #0046be;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+
+    
+}
+
+footer>.last>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 10px 30px;
+}
+footer>.last>div:nth-child(2){
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+footer>.last>div>p{
+    padding-left: 17px;
+    padding: 35px 10px 20px 10px;
+}
+
+
+
