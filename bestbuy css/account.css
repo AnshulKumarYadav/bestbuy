@@ -47,7 +47,7 @@ nav>div a {
 }
 
 #createAccount p,hr {
-    font-size: 13px;
+    font-size: 14px;
     width: 330px;
     margin: auto;
 }
@@ -120,7 +120,6 @@ hr{
     font-weight: 600;
     cursor: pointer;
     border: 1px solid #0046be;
-    color: #0046be;
     border-radius: 4px;
     text-decoration: none;
 }
