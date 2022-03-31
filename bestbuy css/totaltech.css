@@ -8,6 +8,55 @@
     height: 35px;
     background-color: #e0e6ef;
 }
+#navbar{
+    width: 100%;
+    background-color: #0046be;
+}
+#navbar>.upnav{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    color: white;
+    text-transform: capitalize;
+}
+#navbar>.upnav>div>i{
+
+    color: white;
+    text-transform: lowercase;
+}
+#navbar>.upnav>div>img{
+    width: 60px;
+    height: 40px;
+    background-color: #0046be;
+}
+#navbar>.upnav>div>{
+    margin-left: 30px;
+}
+#navbar>.downnav{
+    display: flex;
+    justify-content: space-around;
+}
+#navbar>.downnav>div{
+    display: flex;
+    margin: auto;
+    width: 48%;
+    justify-content: space-around;
+}
+#navbar>.downnav>div>div{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+#navbar>.downnav>div>div a{
+    color: white;
+    text-decoration: none;
+}
+#navbar>.downnav>div>div a:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 #navabove>p{
     text-align: center;
     font-size: 15px;
@@ -31,6 +80,7 @@ nav{
     padding-top: 10px;
 
 }
+
 #alreary-member{
     background-color: #f5f5f5;
     padding-left: 180px;  
@@ -56,7 +106,7 @@ nav{
     height: 80%;
 }
 #abovediv>div>div img{
-    width: 272px;
+    width: 60%;
     height: 40px;
 }
 #abovediv>div{
@@ -403,19 +453,19 @@ footer>.box-1{
     
 }
 footer>.box-1>div>p>i{
-    font-size: 120px;
+    font-size: 60px;
     color: rgb(110, 110, 110);
 }
 footer>.box-1>div>a{
   text-decoration: none;
+  color: #0046be;
+  font-weight: 600;
 }
 footer>.box-1>div>a:hover{
     text-decoration: underline;
     cursor: pointer;
   }
 
-
- 
 footer>.box-1>div{
     width: 20%;
     height: 100%;
@@ -444,6 +494,8 @@ footer>.box-2>div>a+h3{
 }
 footer>.box-2>div>a{
     text-decoration: none;
+    color: #0046be;
+
 }
 footer>.box-2>div>a:hover{
     text-decoration: underline;
@@ -485,6 +537,129 @@ footer>.last>div:nth-child(2){
 footer>.last>div>p{
     padding-left: 17px;
     padding: 35px 10px 20px 10px;
+}
+@media screen and (min-width: 421px) and (max-width: 780px){
+    #navabove{
+        height: 20px;
+        margin-top: -5px;
+ 
+        
+    }
+    #navabove>p{
+        font-size: 7px;
+        padding-bottom: 20px;
+        
+    }
+    #navbar{
+        height: 70px;
+    }
+    #navbar>.upnav{
+        display: flex;
+        padding-left: 0px;
+    }
+    #navbar>.upnav>div{
+        margin-left: -12px;
+    }
+    #navbar>.upnav>div>img{
+        height: 20px;
+        width: 30px;
+        margin-left: -30px;
+    }
+    #navbar>.downnav>div>div>a{
+        display: none;
+    }
+    #page-title {
+        background-color: white;
+        padding-left: 10px;
+        height: auto;
+        padding-top: 10px;
+    
+    }
+    #alreary-member{
+        background-color: #f5f5f5;
+        padding-left: 10px;  
+        height:auto;
+        padding-top: 15px;
+        font-weight: 600;
+    }
+    #alreary-member p{
+        font-size: 15px;
+    }
+    #abovediv{
+        background-color: #ebebeb;
+        height: auto; 
+        display: flex;
+    }
+    #abovediv>div{
+        padding-top: 13px;
+
+    }
+    #abovediv>div>div img{
+        height: 20px;
+    }
+    #abovediv>div>h1{
+        font-size: 15px;
+    }
+    #abovediv>div>p{
+        font-size: 10px;
+        width: 100%;
+    }
+    #abovediv>div:nth-child(1){
+        width: 60%;
+        height: 80%;
+        margin-left: 0px;
+        
+    }
+    #abovediv>div:nth-child(2)>img{
+        height: 150px;  
+        margin-top: 35px;   
+        width: 100%;   
+        margin-left: 5px;
+    }
+    #abovediv>div:nth-child(2){
+        width: 35%;
+        height: 80%;
+        margin-left: 10px;
+        display: flex;
+
+    }
+    #abovediv>div{
+        padding-top: 5px;
+    }
+    #abovediv>div h1{
+        color: #0046be;
+        padding-top: 6px;
+    }
+    #abovediv>div h1>span{
+        color: black;
+    }
+    #abovediv>div>p{
+        color: black;
+        padding-top: 7px;
+    }
+    #abovediv>div>h2{
+        color: black;
+        padding-top: 5px;
+        font-size: 15px;
+        
+    }
+    #abovediv>div>p{
+
+        font-size: 8px;
+        
+    }
+    #container>.box-1{
+        width: 90%;
+        padding-top: 60px;
+        margin: auto;
+        text-align: center;
+    }
+    #container>.box-1>h1{
+        font-size: 20px;
+       }
+
+
+ 
 }
 
 
