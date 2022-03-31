@@ -63,37 +63,3 @@ form{
     color: white;
     text-decoration: none;
 }
-@media all and (min-width:421px) and (max-width: 760px){
-    header{
-        width: 100%;
-        height: 60px;
-        background-color: rgb(2, 39, 161);
-    }
-    #nav1{
-        display: flex;
-        justify-content: space-evenly;
-        padding: 10px;
-    }
-    #nav1>img{
-        width: 30px;
-        height: 15px;
-    }
-    #nav1 i{
-        font-size: 15px;
-        color: white;
-    }
-    #nav1 input{
-        width: 120px;
-        height: 15px;
-    }
-    form{
-        width: 600px;
-        display: flex;
-        justify-content: space-between;
-    }
-    #cart a{
-        font-size: 15px;
-        color: white;
-        text-decoration: none;
-    }
-}
