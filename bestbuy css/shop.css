@@ -20,6 +20,8 @@ margin-top:100px;
 
 
 
+
+
 #boundry{
   display:grid;
   grid-template-columns:repeat(28, 1fr);
