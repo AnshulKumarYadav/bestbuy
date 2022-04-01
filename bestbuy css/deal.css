@@ -45,11 +45,9 @@ h1{
   width:100%;
   height:100%;
   margin:auto;
-  
   box-sizing:border-box;
   color:black;
 }
-
 .box51{
   width:90%;
   height:100%;
@@ -57,7 +55,59 @@ h1{
   padding:15px;
   box-sizing:border-box;
   color:rgb(66, 107, 168);
-  
+}
+.box49>.box51>#boundry1>ul>li>h1{
+  margin-left:-420px;
+  color:green;
+}
+.box49>.box51>#boundry1>ul>li>button{
+  background-color:yellow;
+  border-radius:05px;
+  margin-top:15px;
+}
+.box49>.box51>#boundry1>ul>li>button:hover{
+  background-color:rgb(192, 192, 40);
+}
+.box51>button{
+  background-color:white;
+  border:0px;
+  width:540px;
+  color:blue;
+}
+.box51>p1>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+}
+.box51>p1>button:hover{
+  text-decoration:underline;
+color:rgb(39, 39, 106);
+}
+.box51>button:hover{
+text-decoration:underline;
+color:rgb(39, 39, 106);
+}
+.box51>h3{
+color:blue;
+}
+.box51>h5{
+  color:green;
+}
+.box51>p{
+  color:black;
+}
+.box51>p1{
+  color:blue;
+}
+.checked{
+  color:orange;
+}
+
+
+
+.bocx9876>p{
+  color:black;
+  margin-top:-100px;
 }
 
 
@@ -67,10 +117,12 @@ h1{
   width:100%;
   margin:auto;
   display:flex;
-  margin-top:300px;
+  margin-top:400px;
+  padding-top:100px;
+  border-top:2px solid black;
 }
 .box52{
-  height:270px;
+  height:250px;
   width:80%;
   margin:auto;
   border-radius:1px solid black;
@@ -80,28 +132,56 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
 }
-
+.box53>p{
+  margin-top:-65px;
+  color:black;
+  font-size:35px;
+  text-decoration:bold;
+}
 .box54{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  padding-bottom:240px;
+}
+.box54>#boundry2{
+  margin-top:-12px;
+}
+.box54>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+}
+.box54>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+#boundry2{
+  color:black;
+}
+#boundry3{
+  color:black;
+}
+.box54>#boundry2>ul>li>button{
+background-color:yellow;
+color:black;
+border-radius:4px;
+width:130px;
+}
+.box54>#boundry2>ul>li>button:hover{
+  background-color:rgb(215, 215, 84);
 }
 .box55{
-  height:270px;
+  height:250px;
   width:80%;
   margin:auto;
   border-radius:1px solid black;
@@ -111,28 +191,46 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-left:1px solid black;
+  border-top:1px solid black;
 }
-
 .box57{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  border-left:1px solid black;
+  padding-bottom:240px;
 }
+.box57>#boundry3{
+  margin-top:-29px;
+}
+.box57>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+}
+.box57>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box57>#boundry3>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box57>#boundry3>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 .box58{
-  height:270px;
+  height:250px;
   width:80%;
   margin:auto;
   border-radius:1px solid black;
@@ -142,28 +240,46 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
+  border-left:1px solid black;
 }
-
 .box60{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  border-left:1px solid black;
+  padding-bottom:240px;
 }
+.box60>#boundry2{
+  margin-top:-13px;
+}
+.box60>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+}
+.box60>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box60>#boundry2>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box60>#boundry2>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 .box61{
-  height:270px;
+  height:250px;
   width:80%;
   margin:auto;
   border-radius:1px solid black;
@@ -173,26 +289,44 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
+  border-left:1px solid black;
 }
-
 .box63{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  border-left:1px solid black;
+  padding-bottom:240px;
 }
+.box63>#boundry2{
+  margin-top:-27px;
+}
+.box63>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+}
+.box63>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box63>#boundry2>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box63>#boundry2>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 /* .box64{
   height:270px;
   width:80%;
@@ -245,26 +379,47 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
 }
-
 .box66{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  padding-bottom:240px;
 }
+.box66>#boundry2{
+  margin-top:-15px;
+}
+.box66>#boundry2>ul>li>h2{
+  margin-top:-02px;
+  margin-bottom:-03px;
+}
+.box66>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+  text-align:left;
+}
+.box66>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box66>#boundry2>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box66>#boundry2>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 .box67{
   height:270px;
   width:80%;
@@ -276,26 +431,49 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
+  border-left:1px solid black;
 }
-
 .box69{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  border-left:1px solid black;
+  padding-bottom:240px;
 }
+.box69>#boundry3{
+  margin-top:-0px;
+}
+.box69>#boundry3>ul>li>h2{
+  margin-top:-02px;
+  margin-bottom:-03px;
+}
+.box69>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+  text-align:left;
+}
+.box69>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box69>#boundry3>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box69>#boundry3>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 .box70{
   height:270px;
   width:80%;
@@ -307,26 +485,49 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
+  border-left:1px solid black;
 }
-
 .box72{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  border-left:1px solid black;
+  padding-bottom:240px;
 }
+.box72>#boundry2{
+  margin-top:-0px;
+}
+.box72>#boundry2>ul>li>h2{
+  margin-top:-02px;
+  margin-bottom:-03px;
+}
+.box72>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+  text-align:left;
+}
+.box72>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box72>#boundry2>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box72>#boundry2>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 .box73{
   height:270px;
   width:80%;
@@ -338,26 +539,50 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
+  border-left:1px solid black;
 }
-
 .box75{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  border-left:1px solid black;
+  padding-bottom:240px;
 }
+.box75>#boundry2{
+  margin-top:-0px;
+}
+.box75>#boundry2>ul>li>h2{
+  margin-top:-02px;
+  margin-bottom:-03px;
+}
+.box75>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+  text-align:left;
+}
+.box75>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box75>#boundry2>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box75>#boundry2>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
+
 
 
 
@@ -379,26 +604,47 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
 }
-
 .box78{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  padding-bottom:240px;
 }
+.box78>#boundry2{
+  margin-top:-0px;
+}
+.box78>#boundry2>ul>li>h2{
+  margin-top:-02px;
+  margin-bottom:-03px;
+}
+.box78>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+  text-align:left;
+}
+.box78>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box78>#boundry2>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box78>#boundry2>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 .box79{
   height:270px;
   width:80%;
@@ -410,26 +656,49 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
+  border-left:1px solid black;
 }
-
 .box81{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  border-left:1px solid black;
+  padding-bottom:240px;
 }
+.box81>#boundry3{
+  margin-top:-0px;
+}
+.box81>#boundry3>ul>li>h2{
+  margin-top:-02px;
+  margin-bottom:-03px;
+}
+.box81>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+  text-align:left;
+}
+.box81>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box81>#boundry3>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box81>#boundry3>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 .box82{
   height:270px;
   width:80%;
@@ -441,26 +710,49 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
+  border-left:1px solid black;
 }
-
 .box84{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  border-left:1px solid black;
+  padding-bottom:240px;
 }
+.box84>#boundry2{
+  margin-top:-0px;
+}
+.box84>#boundry2>ul>li>h2{
+  margin-top:-02px;
+  margin-bottom:-03px;
+}
+.box84>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+  text-align:left;
+}
+.box84>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box84>#boundry2>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box84>#boundry2>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 .box85{
   height:270px;
   width:80%;
@@ -472,26 +764,49 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
+  border-left:1px solid black;
 }
-
 .box87{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  border-left:1px solid black;
+  padding-bottom:240px;
 }
+.box87>#boundry2{
+  margin-top:-0px;
+}
+.box87>#boundry2>ul>li>h2{
+  margin-top:-02px;
+  margin-bottom:-03px;
+}
+.box87>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+  text-align:left;
+}
+.box87>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box87>#boundry2>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box87>#boundry2>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 
 
 
@@ -513,26 +828,48 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
 }
-
 .box90{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  padding-bottom:240px;
+  border-bottom:1px solid black;
 }
+.box90>#boundry2{
+  margin-top:53px;
+}
+.box90>#boundry2>ul>li>h2{
+  margin-top:-02px;
+  margin-bottom:-03px;
+}
+.box90>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+  text-align:left;
+}
+.box90>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box90>#boundry2>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box90>#boundry2>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 .box91{
   height:270px;
   width:80%;
@@ -544,26 +881,50 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
+  border-left:1px solid black;
 }
-
 .box93{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  border-left:1px solid black;
+  padding-bottom:240px;
+  border-bottom:1px solid black;
 }
+.box93>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+  text-align:left;
+}
+.box93>#boundry3{
+  margin-top:38px;
+}
+.box93>#boundry3>ul>li>h2{
+  margin-top:-02px;
+  margin-bottom:-03px;
+}
+.box93>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box93>#boundry3>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box93>#boundry3>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 .box94{
   height:270px;
   width:80%;
@@ -575,26 +936,50 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
+  border-left:1px solid black;
 }
-
 .box96{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  border-left:1px solid black;
+  padding-bottom:240px;
+  border-bottom:1px solid black;
 }
+.box96>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+  text-align:left;
+}
+.box96>#boundry2{
+  margin-top:38px;
+}
+.box96>#boundry2>ul>li>h2{
+  margin-top:-02px;
+  margin-bottom:-03px;
+}
+.box96>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box96>#boundry2>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box96>#boundry2>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 .box97{
   height:270px;
   width:80%;
@@ -606,39 +991,64 @@ h1{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:black;
+  border-top:1px solid black;
+  border-left:1px solid black;
 }
-
 .box99{
   width:100%;
   height:80%;
   margin:auto;
-  background-color:#d1cdcd;
-  border-bottom:1px solid black;
-  
   padding:15px;
-  
   box-sizing:border-box;
   color:rgb(57, 47, 199);
+  border-left:1px solid black;
+  padding-bottom:240px;
+  border-bottom:1px solid black;
 }
+.box99>button{
+  background-color:white;
+  border:0px;
+  color:blue;
+  text-align:left
+}
+.box99>#boundry2{
+  margin-top:54px;
+}
+.box99>#boundry2>ul>li>h2{
+  margin-top:-02px;
+  margin-bottom:-03px;
+}
+.box99>button:hover{
+  text-decoration:underline;
+  background-color:rgb(39, 39, 106);
+  background-color:white;
+}
+.box99>#boundry2>ul>li>button{
+  background-color:yellow;
+  color:black;
+  border-radius:4px;
+  width:130px;
+  }
+  .box99>#boundry2>ul>li>button:hover{
+    background-color:rgb(215, 215, 84);
+  }
 
 
 
 .topg-section{
-  height:450px;
+  height:390px;
   width:70%;
   margin:auto;
-  border:1px solid black;
-  
+  border:1px solid grey;
+  padding-left:20px;
   margin-top:260px;
+  margin-bottom:-20px;
 }
 .box100{
-  height:350px;
+  height:250px;
   width:70%;
   margin:auto;
   display:flex;
@@ -649,21 +1059,67 @@ h1{
   width:48%;
   height:80%;
   margin:auto;
-  
-  border:1px solid black;
+  background-color:rgb(244, 250, 255);
+  border-top:1px solid grey;
+  border-left:1px solid grey;
+  border-bottom:1px solid grey;
   padding:15px;
   color:black
 }
+.box101>input{
+  width:300px;
+  height:20px;
+}
+.box101>button{
+    background-color:blue;
+    color:white;
+    width:100px;
+    height:35px;
+    margin-top:15px;
+    border-radius:05px;
+  }
+  .box101>button:hover{
+    background-color:rgb(15, 15, 138);
+  }
 .box102{
   width:48%;
   height:80%;
   margin:auto;
-  
-  border:1px solid black;
+  background-color:rgb(244, 250, 255);
+  border:1px solid grey;
   padding:15px;
- 
   color:black;
 }
+.box102>p{
+  color:black;
+}
+.box102>input{
+  width:300px;
+  height:20px;
+}
+.box102>button{
+    background-color:blue;
+    color:white;
+    width:100px;
+    height:35px;
+    margin-top:5px;
+    border-radius:05px;
+  }
+  .box102>button:hover{
+    background-color:rgb(15, 15, 138);
+  }
+  .box102>p>button{
+    background-color:rgb(244, 250, 255);
+    color:blue;;
+    width:212px;
+    height:19px;
+    margin-top:5px;
+    border:0px;
+  }
+  .box102>p>button:hover{
+    text-decoration:underline;
+    color:rgb(15, 15, 138);
+  }
 
 
 
@@ -671,9 +1127,9 @@ h1{
     height:250px;
     width:100%;
     margin:auto;
-    margin-top:250px;
+    margin-top:50px;
     display:flex;
-    margin-bottom:60px;
+    margin-bottom:20px;
     }
     .box103{
     height:250px;
@@ -718,22 +1174,16 @@ h1{
     width:60%;
     height:100%;
     margin:auto;
-    
-    
     padding:15px;
-    
     box-sizing:border-box;
     color:black;
     }
-    
     .box108{
     width:60%;
     height:80%;
     margin:auto;
-    
     border-right:1px solid black;
     padding:15px;
-    
     box-sizing:border-box;
     color:black;
     }
@@ -749,22 +1199,15 @@ h1{
     width:60%;
     height:100%;
     margin:auto;
-    
-    
     padding:15px;
-    
     box-sizing:border-box;
     color:black;
     }
-    
     .box111{
     width:60%;
     height:80%;
     margin:auto;
-    
-    
     padding:15px;
-    
     box-sizing:border-box;
     color:black;
     }
@@ -788,6 +1231,19 @@ h1{
         margin-left:-500px;
         color:black;
         }
+        .box114>p{
+          color:black
+        }
+        .box114>button{
+          background-color:white;
+          border:0px;
+          color:blue;
+        }
+        .box114>button:hover{
+          color:rgb(15, 15, 138);
+          background-color:white;
+          text-decoration:underline;
+        }
     
 
 
@@ -806,37 +1262,49 @@ h1{
         width:450%;
         margin-top:100px;
         }
+        .box117>p{
+          color:rgb(66, 58, 58);
+        }
 
 
 
         #boundry{
             display:grid;
-            grid-template-columns:repeat(10, 1fr);
+            grid-template-columns:repeat(28, 1fr);
             grid-template-rows:auto;
             gap:20px;
             margin:auto;
-            border:1px solid black;
+            border-top:1px solid black;
+            border-bottom:1px solid black;
           }
           #boundry>div{
             margin-bottom:20px;
+            margin-top:10px;
             box-sizing:border-box;
             padding:0px 5px 0px 5px;
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
             border-radius:15px;
           }
           .innerbox{
-            display:flex;
             justify-content:space-between;
+          }
+          .innerbox>button{
+            background-color:white;
+            border:0px;
+          }
+          .innerbox>button:hover{
+          text-decoration:underline;
+          color:rgb(22, 22, 123);
+          background-color:white;
           }
           p{
             font-size:16px;
-            color:dark blue;
+            color:blue;
             text-align:bottom;
             margin-top:0px;
           }
           img{
             height:130px;
-            width:110px;
+            width:140px;
             margin:auto;
           }
           div>h2:last-child{
@@ -885,6 +1353,17 @@ h1{
             box-sizing:border-box;
             color:rgb(57, 47, 199);
           }
+          .box120>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box120>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
+          }
           .box121{
             height:230px;
             width:100%;
@@ -908,6 +1387,17 @@ h1{
             padding:15px;
             box-sizing:border-box;
             color:rgb(57, 47, 199);
+          }
+          .box123>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box123>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
           }
           .box124{
             height:230px;
@@ -933,6 +1423,17 @@ h1{
             box-sizing:border-box;
             color:rgb(57, 47, 199);
           }
+          .box126>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box126>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
+          }
           .box127{
             height:230px;
             width:100%;
@@ -957,6 +1458,17 @@ h1{
             box-sizing:border-box;
             color:rgb(57, 47, 199);
           }
+          .box129>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box129>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
+          }
           .box130{
             height:230px;
             width:100%;
@@ -980,6 +1492,17 @@ h1{
             padding:15px;
             box-sizing:border-box;
             color:rgb(57, 47, 199);
+          }
+          .box132>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box132>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
           }
           .box133{
             height:230px;
@@ -1006,6 +1529,17 @@ h1{
             box-sizing:border-box;
             color:rgb(57, 47, 199);
           }
+          .box135>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box135>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
+          }
           .box136{
             height:230px;
             width:100%;
@@ -1030,6 +1564,17 @@ h1{
             padding:15px;
             box-sizing:border-box;
             color:rgb(57, 47, 199);
+          }
+          .box138>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box138>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
           }
           .box139{
             height:230px;
@@ -1056,6 +1601,17 @@ h1{
             box-sizing:border-box;
             color:rgb(57, 47, 199);
           }
+          .box141>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box141>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
+          }
           .box142{
             height:230px;
             width:100%;
@@ -1079,6 +1635,17 @@ h1{
             padding:15px;
             box-sizing:border-box;
             color:rgb(57, 47, 199);
+          }
+          .box144>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box144>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
           }
           .box145{
             height:230px;
@@ -1105,6 +1672,17 @@ h1{
             box-sizing:border-box;
             color:rgb(57, 47, 199);
           }
+          .box147>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box147>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
+          }
           .box148{
             height:230px;
             width:100%;
@@ -1128,6 +1706,17 @@ h1{
             padding:15px;
             box-sizing:border-box;
             color:rgb(57, 47, 199);
+          }
+          .box150>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box150>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
           }
           .box151{
             height:230px;
@@ -1153,6 +1742,17 @@ h1{
             box-sizing:border-box;
             color:rgb(57, 47, 199);
           }
+          .box153>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box153>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
+          }
           .box154{
             height:230px;
             width:100%;
@@ -1176,6 +1776,17 @@ h1{
             padding:15px;        
             box-sizing:border-box;
             color:rgb(57, 47, 199);
+          }
+          .box156>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box156>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
           }
           .box157{
             height:230px;
@@ -1201,6 +1812,17 @@ h1{
             box-sizing:border-box;
             color:rgb(57, 47, 199);
           }
+          .box159>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box159>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
+          }
           .box160{
             height:230px;
             width:100%;
@@ -1224,6 +1846,17 @@ h1{
             padding:15px;
             box-sizing:border-box;
             color:rgb(57, 47, 199);
+          }
+          .box162>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box162>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
           }
 
 
@@ -1249,6 +1882,20 @@ h1{
             padding:15px;
             color:black
           }
+          .box165>p{
+            color:black;
+          }
+          .box165>p>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box165>p>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
+          }
           .box166{
             width:48%;
             height:80%;
@@ -1256,6 +1903,20 @@ h1{
             border-top:1px solid black;
             padding:15px;
             color:black;
+          }
+          .box166>p{
+            color:black;
+          }
+          .box166>p>button{
+            background-color:white;
+            border:0px;
+            color:blue;
+            text-align:left;
+          }
+          .box166>p>button:hover{
+            color:rgb(15, 15, 138);
+            background-color:white;
+            text-decoration:underline;
           }
 
 
@@ -1267,6 +1928,7 @@ h1{
             margin:auto;
             display:flex;
             margin-bottom:60px;
+            margin-top:100px;
             }
             .box167{
             height:170px;
@@ -1279,7 +1941,7 @@ h1{
             width:100%;
             height:80%;
             margin:auto;
-            background-color:#d1cdcd;
+            background-color:#f2f1f1;
             padding:15px;
             box-sizing:border-box;
             color:black;
@@ -1288,11 +1950,22 @@ h1{
             width:100%;
             height:80%;
             margin:auto;
-            background-color:#d1cdcd;
+            background-color:#f2f1f1;
             border-bottom:1px solid black;
             padding:15px;
             box-sizing:border-box;
             color:rgb(57, 47, 199);
+            }
+            .box169>button{
+            background-color:#f2f1f1;
+            color:blue;
+            width:200px;
+            margin-left:30px;
+            border:0px;
+            }
+            .box169>button:hover{
+              text-decoration: underline;
+              color:rgb(47, 7, 133);
             }
             .box170{
             height:170px;
@@ -1305,7 +1978,7 @@ h1{
             width:100%;
             height:80%;
             margin:auto;
-            background-color:#d1cdcd;
+            background-color:#f2f1f1;
             padding:15px;
             box-sizing:border-box;
             color:black;
@@ -1314,11 +1987,22 @@ h1{
             width:100%;
             height:80%;
             margin:auto;
-            background-color:#d1cdcd;
+            background-color:#f2f1f1;
             border-bottom:1px solid black;
             padding:15px;
             box-sizing:border-box;
             color:rgb(57, 47, 199);
+            }
+            .box172>button{
+              background-color:#f2f1f1;
+              color:blue;
+              width:200px;
+              margin-left:30px;
+              border:0px;
+            }
+            .box172>button:hover{
+              text-decoration: underline;
+              color:rgb(47, 7, 133);
             }
             .box173{
             height:170px;
@@ -1331,7 +2015,7 @@ h1{
             width:100%;
             height:80%;
             margin:auto;
-            background-color:#d1cdcd;
+            background-color:#f2f1f1;
             padding:15px;
             box-sizing:border-box;
             color:black;
@@ -1340,11 +2024,22 @@ h1{
             width:100%;
             height:80%;
             margin:auto;
-            background-color:#d1cdcd;
+            background-color:#f2f1f1;
             border-bottom:1px solid black;
             padding:15px;
             box-sizing:border-box;
             color:rgb(57, 47, 199);
+            }
+            .box175>button{
+              background-color:#f2f1f1;
+              color:blue;
+              width:230px;
+              margin-left:30px;
+              border:0px;
+            }
+            .box175>button:hover{
+              text-decoration: underline;
+              color:rgb(47, 7, 133);
             }
             .box176{
             height:170px;
@@ -1357,7 +2052,7 @@ h1{
             width:100%;
             height:80%;
             margin:auto;
-            background-color:#d1cdcd;
+            background-color:#f2f1f1;
             padding:15px;
             box-sizing:border-box;
             color:black;
@@ -1366,11 +2061,22 @@ h1{
             width:100%;
             height:80%;
             margin:auto;
-            background-color:#d1cdcd;
+            background-color:#f2f1f1;
             border-bottom:1px solid black;
             padding:15px;
             box-sizing:border-box;
             color:rgb(57, 47, 199);
+            }
+            .box178>button{
+              background-color:#f2f1f1;
+              color:blue;
+              width:200px;
+              margin-left:30px;
+              border:0px;
+            }
+            .box178>button:hover{
+              text-decoration: underline;
+              color:rgb(47, 7, 133);
             }
             .box179{
             height:170px;
@@ -1383,7 +2089,7 @@ h1{
             width:100%;
             height:80%;
             margin:auto;
-            background-color:#d1cdcd;
+            background-color:#f2f1f1;
             padding:15px;
             box-sizing:border-box;
             color:black;
@@ -1392,11 +2098,22 @@ h1{
             width:100%;
             height:80%;
             margin:auto;
-            background-color:#d1cdcd;
+            background-color:#f2f1f1;
             border-bottom:1px solid black;
             padding:15px;
             box-sizing:border-box;
             color:rgb(57, 47, 199);
+            }
+            .box181>button{
+              background-color:#f2f1f1;
+              color:blue;
+              width:200px;
+              margin-left:30px;
+              border:0px;
+            }
+            .box181>button:hover{
+              text-decoration: underline;
+              color:rgb(47, 7, 133);
             }
             
             
@@ -1409,112 +2126,411 @@ h1{
             margin-bottom:60px;
             }
             .box182{
-            height:200px;
-            width:70%;
-            margin-bottom:60px;
-            }
-            .box183{
-            height:200px;
-            width:80%;
-            margin:auto;
-            display:flex;
-            margin-bottom:60px;
-            color:black;
-            }
-            .box184{
-            width:90%;
-            height:80%;
-            margin:auto;
-            color:rgb(50, 112, 204);
-            }
-            .box185{
-            width:90%;
-            height:80%;
-            margin:auto;
-            color:rgb(50, 112, 204);
-            }
-            .box186{
-            width:90%;
-            height:80%;
-            margin:auto;
-            color:rgb(50, 112, 204);
-            }
-            .box187{
-            height:200px;
-            width:80%;
-            margin:auto;
-            display:flex;
-            margin-bottom:60px;
-            color:black;
-            }
-            .box188{
-            width:90%;
-            height:80%;
-            margin:auto;
-            color:rgb(50, 112, 204);
-            }
-            .box189{
-            width:90%;
-            height:80%;
-            margin:auto;
-            color:rgb(50, 112, 204);
-            }
-            .box190{
-            width:90%;
-            height:80%;
-            margin:auto;
-            color:rgb(50, 112, 204);
-            }
+              height:200px;
+              width:70%;
+              margin-bottom:60px;
+              }
+              .box183{
+              height:200px;
+              width:80%;
+              margin:auto;
+              display:flex;
+              margin-top:-10px;
+              margin-bottom:120px;
+              color:black;
+              }
+              .box184{
+              width:90%;
+              height:80%;
+              margin:auto;
+              color:black;
+              }
+              .box184>ul>button{
+                background-color:white;
+                width:179px;
+                text-align:left;
+                border:0px;
+                color:blue;
+              }
+              .box184>ul>button:hover{
+                text-decoration: underline;
+                color:grey;
+              }
+              .box185{
+              width:90%;
+              height:80%;
+              margin:auto;
+              color:black;
+              }
+              .box185>ul>button{
+                background-color:white;
+                text-align:left;
+                border:0px;
+                width:179px;
+                color:blue;
+              }
+              .box185>ul>button:hover{
+                text-decoration: underline;
+                color:grey;
+              }
+              .box186{
+              width:90%;
+              height:80%;
+              margin:auto;
+              color:black;
+              }
+              .box186>ul>button{
+                background-color:white;
+                text-align:left;
+                border:0px;
+                width:179px;
+                color:blue;
+              }
+              .box186>ul>button:hover{
+                text-decoration: underline;
+                color:grey;
+              }
+              .box187{
+              height:200px;
+              width:80%;
+              margin:auto;
+              display:flex;
+              margin-bottom:80px;
+              color:black;
+              }
+              .box188{
+              width:90%;
+              height:80%;
+              margin:auto;
+              color:black;
+              }
+              .box188>ul>button{
+                background-color:white;
+                text-align:left;
+                border:0px;
+                width:179px;
+                color:blue;
+              }
+              .box188>ul>button:hover{
+                text-decoration: underline;
+                color:grey;
+              }
+              .box189{
+              width:90%;
+              height:80%;
+              margin:auto;
+              color:black;
+              }
+              .box189>ul>button{
+                background-color:white;
+                text-align:left;
+                border:0px;
+                width:179px;
+                color:blue;
+              }
+              .box189>ul>button:hover{
+                text-decoration: underline;
+                color:grey;
+              }
+              .box190{
+              width:90%;
+              height:80%;
+              margin:auto;
+              color:black;
+              }
+              .box190>ul>button{
+                background-color:white;
+                text-align:left;
+                border:0px;
+                width:179px;
+                color:blue;
+              }
+              .box190>ul>button:hover{
+                text-decoration: underline;
+                color:grey;
+              }
             
             
             
-            .box194{
-            height:200px;
-            width:60%;
-            margin:auto;
-            margin-bottom:60px;
-            border-radius:1px solid black;
-            }
-            .box195{
-            width:160px;
-            height:75%;
-            margin:auto;
-            margin-bottom:60px;
-            color:#6E71CC;
-            }
-            .box196{
-            width:100%;
-            height:100%;
-            margin:auto;
-            color:black;
-            }
             
-            .box197{
-            width:100%;
-            height:100%;
-            margin:auto;
-            display:flex;
-            color:black;
-            }
-            .box198{
-            width:100%;
-            height:100%;
-            margin:auto;
-            color:black;
-            }
-            .box199{
-            width:100%;
-            height:100%;
-            margin:auto;
-            color:black;
-            }
-            .box200{
-            width:100%;
-            height:100%;
-            margin:auto;
-            display:flex;
-            color:black;
-            }
+              .box194{
+                height:550px;
+                width:30%;
+                margin:auto;
+                }
+                .box195{
+                width:60%;
+                margin:auto;
+                margin-bottom:60px;
+                color:#6E71CC;
+                }
+                .box195>button{
+                width:200px;
+                margin-top:25px;
+                background-color:white;
+                color:rgb(95, 95, 198);
+                border:0px;
+                margin-left:-07.5px;
+                }
+                .box195>button:hover{
+                  text-decoration: underline;
+                  color:grey;
+                }
+                .box196{
+                width:100%;
+                margin:auto;
+                color:black;
+                border-top:1px solid black;
+                border-bottom:1px solid black;
+                margin-bottom:20px;
+                }
+                .box196>button{
+                  width:100px;
+                  margin-top:25px;
+                  margin-bottom:15px;
+                  background-color:blue;
+                  color:white;
+                  border:0px;
+                  height:34px;
+                  border-radius:6px;
+                  }
+                  .box196>button:hover{
+                    text-decoration: underline;
+                    color:grey;
+                  }
+                  .box196>input{
+                    width:260px;
+                  }
+                .box197{
+                width:100%;
+                margin:auto;
+                display:flex;
+                color:black;
+                
+                border-bottom:1px solid black;
+                margin-bottom:20px;
+                }
+                .box198{
+                width:100%;
+                margin:auto;
+                color:black;
+                }
+                .box199{
+                width:100%;
+                margin:auto;
+                color:black;
+                }
+                .box199>button{
+                background-color:white;
+                color:blue;
+                border:0px;
+                margin-left:-38px;
+                }
+                .box199>button:hover{
+                  text-decoration: underline;
+                  color:grey;
+                }
+                .box199>h4{
+                  margin-left:-34px;
+                }
+                .box200{
+                width:100%;
+                height:85px;
+                margin:auto;
+                display:flex;
+                color:black;
+                
+                border-bottom:1px solid black;
+                }
+                .box5000>button{
+                  background-color:white;
+                  border:0px;
+                  margin-left:-4px;
+                  margin-top:15px;
+                  color:blue;
+                }
+                .box5000>button:hover{
+                  text-decoration: underline;
+                  color:grey;
+                }
+
+
+
+
+
+                .morektopk-section{
+                  height:50px;
+                  width:100%;
+                  margin:auto;
+                  display:flex;
+                  border-bottom:1px solid black;
+                  margin-top:350px;
+                  }
+                  
+                  .box1001{
+                  width:50%;
+                  height:100%;
+                  padding-left:140px;
+                  color:white;
+                  display:flex;
+                  }
+                  .box1001>p{
+                    color:black;
+                    width:250px;
+                    margin-top:5px;
+                  }
+                  .box1001>button{
+                    color:blue;
+                    width:209px;
+                    background-color:white;
+                    border:1px solid white;
+                    margin-left:-72px;
+                    margin-top:-17px;
+                  }
+                  .box1001>button:hover{
+                    text-decoration: underline;
+                    color:grey;
+                  }
+                      .box1002{
+                      width:50%;
+                      height:100%;
+                      padding-left:650px;
+                      display:flex;
+                      color:white;
+                      }
+                      .box1002>p{
+                        color:white;
+                      }
+                      .box1002>button{
+                        color:blue;
+                        width:118px;
+                        background-color:white;
+                        border:1px solid white;
+                        padding:-30px;
+                      }
+                      .box1002>button:hover{
+                        text-decoration: underline;
+                        color:grey;
+                      }
+                
+                
+                
+                
+                      .morekktopkk-section{
+                        height:50px;
+                        width:100%;
+                        margin:auto;
+                        }
+                        .box1003{
+                        width:100%;
+                        height:100%;
+                        color:white;
+                        display:flex;
+                        margin-left:119px;
+                        }
+                        .box1005>button{
+                          color:blue;
+                          width:80px;
+                          background-color:white;
+                          margin-left:0px;
+                          font-size:11px;
+                          margin-left:10px;
+                          border:0px solid black;
+                        }
+                        .box1005>button:hover{
+                          text-decoration: underline;
+                          color:grey;
+                        }
+                        .box1006>button{
+                          color:blue;
+                          width:110px;
+                          background-color:white;
+                          margin-left:0px;
+                          font-size:11px;
+                          margin-left:10px;
+                          border:0px solid black;
+                        }
+                        .box1006>button:hover{
+                          text-decoration: underline;
+                          color:grey;
+                        }
+                        .box1007>button{
+                          color:blue;
+                          width:50px;
+                          background-color:white;
+                          margin-left:0px;
+                          font-size:11px;
+                          margin-left:10px;
+                          border:0px solid black;
+                        }
+                        .box1007>button:hover{
+                          text-decoration: underline;
+                          color:grey;
+                        }
+                        .box1008>button{
+                          color:blue;
+                          width:107px;
+                          background-color:white;
+                          margin-left:0px;
+                          font-size:11px;
+                          margin-left:10px;
+                          border:0px solid black;
+                        }
+                        .box1008>button:hover{
+                          text-decoration: underline;
+                          color:grey;
+                        }
+                        .box1009>button{
+                          color:blue;
+                          width:140px;
+                          background-color:white;
+                          margin-left:0px;
+                          font-size:11px;
+                          margin-left:10px;
+                          border:0px solid black;
+                        }
+                        .box1009>button:hover{
+                          text-decoration: underline;
+                          color:grey;
+                        }
+                        .box1010>button{
+                          color:blue;
+                          width:192px;
+                          background-color:white;
+                          margin-left:0px;
+                          font-size:11px;
+                          margin-left:10px;
+                          border:0px solid black;
+                        }
+                        .box1010>button:hover{
+                          text-decoration: underline;
+                          color:grey;
+                        }
+                        .box1011>button{
+                          color:blue;
+                          width:217px;
+                          background-color:white;
+                          margin-left:0px;
+                          font-size:11px;
+                          margin-left:10px;
+                          border:0px solid black;
+                        }
+                        .box1011>button:hover{
+                          text-decoration: underline;
+                          color:grey;
+                        }
+                            .box1004{
+                            width:100%;
+                            height:100%;
+                            padding-left:50px;
+                            display:flex;
+                            color:white;
+                            }
+                            .box1004>p{
+                              color:black;
+                              font-size:14px;
+                              margin-left:85px;
+                            }
 
 
 
