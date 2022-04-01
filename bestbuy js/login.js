@@ -9,7 +9,7 @@ function signInFunction() {
             if (email == forSignIn[i].email && password == forSignIn[i].password) {
                 if(email!=null || password!=null){
                         // alert("sign in successfull")
-                        window.open("profile.html");
+                        window.open("profile.html" ,"_self");
                         return;
                 }
             }
@@ -17,4 +17,6 @@ function signInFunction() {
                         alert("Wrong password or email"); 
             }
       }
+      document.querySelector("#email").value = "";
+       document.querySelector("#pass").value = "";
 }
