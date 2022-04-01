@@ -4,13 +4,13 @@ document.querySelector('#mexico').addEventListener("click",mexicoHome);
 
 function canadaHome()
 {
-    window.location.href= "/besbuy HTML/home.html";
+    window.location.href= "./besbuy HTML/home.html";
 }
 function usHome()
 {
-    window.location.href = "/besbuy HTML/home.html";
+    window.location.href = "./besbuy HTML/home.html";
 }
 function mexicoHome()
 {
-    window.location.href = "/besbuy HTML/home.html";
+    window.location.href = "./besbuy HTML/home.html";
 }

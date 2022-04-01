@@ -1,0 +1,324 @@
+body{
+    background-color: #f0f2f4;
+    font-family: "Human BBY Digital", "Human Fallback", Arial, Helvetica, sans-serif;
+}
+
+#strip {
+    height: 33px;
+    background-color: #e0e6ef;
+    margin: -8px -8px 0px -8px;
+}
+#strip p ,a{
+    margin-top: -8px;
+    text-align: center;
+    padding-top: 10px;
+    /* align-items: center; */
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#navbar {
+    height: 70px;
+    background-color: #0046be;
+    margin: 0px -8px;
+    display: flex;
+}
+
+hr {
+    margin: 0px -8px;
+    background-color: rgb(187, 183, 183);
+    border: 0px solid rgb(211, 209, 209);
+    height: 1px;
+}
+
+#menu {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+
+#menu img {
+    height: 55%;
+    width: 22%;
+    margin: 5%  0% 5%  12%;
+    /* padding: 17px; */
+}
+
+#menu i {
+    font-size: 120%;
+}
+
+#menu p {
+    font-size: 130%;
+    color: white;
+    margin-right: 20%;
+    margin-top: 7%;
+    font-family: "Human BBY Digital", "Human Fallback", Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+#search {
+    width: 50%;
+    margin: auto;
+    /* font-size: 40px; */
+    /* display: flex; */
+}
+
+#search form input {
+    padding: 10px;
+    font-size: 15px;
+    height: 20px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    float: left;
+    width: 60%;
+    /* background: #f1f1f1; */
+}
+
+#search form button {
+    float: left;
+    width: 7%;
+    /* padding: 9px 0px; */
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    color: #0046be;
+    background-color: white;
+    font-size: 22px;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 0px ;
+    margin-left: -1px;
+}
+#cart {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid green; */
+}
+#cart i {
+    font-size: 130%;
+    color: white;
+}
+#cart p{
+    font-size: 130%;
+    color: white;
+    margin-right: 20%;
+    margin-top: 6%;
+    font-family: "Human BBY Digital", "Human Fallback", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+#cart p+p{
+    margin-top: 7%;
+    margin-right: 10%;
+}
+#navBottom {
+    background-color:#0046be;
+    margin: 0px -8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#navBottom a{
+    color: white;
+    font-size: 14px;
+    
+}
+#navBottom .bold a{
+    font-weight: 600;
+}
+#stripBottom{
+    margin: 0px -8px 0px -8px;
+    height: 56px;
+    background-color: #e0e6ef;
+}
+#stripBottom>div{
+    width: 75%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    /* margin-top: 10px; */
+    justify-content: space-evenly;
+}
+#stripBottom>div div{
+  margin-top: 18px;
+}
+#stripBottom>div div a{
+    color: #0046c3;
+    font-size: 15px;
+}
+#stripBottom+div{
+    height: 105px;
+    padding-left: 15px;
+    background-color: white;
+    /* border-bottom: 1px solid black; */
+    border: 1px solid white;
+    margin: 0px -8px;
+}
+#stripBottom+div p:nth-child(1){
+    font-size: 27px;
+    font-weight: 550;
+    /* border: 1px solid green; */
+    margin-bottom: -15px;
+}
+#stripBottom+div p a{
+    font-size: 17px;
+    font-weight: 300;
+    color: #0046c3;
+}
+#stripBottom+div p+p> a{
+    font-size: 13px;
+}
+#container{
+    width:  90%;
+    /* border: 1px solid green; */
+    /* height: 500px; */
+    margin: auto;
+    margin-top: 40px;display: grid;
+    grid-template-columns: 33% 65%;
+    gap: 2%;
+}
+#left{
+    /* border: 1px solid rebeccapurple; */
+    background-color: white;
+    padding-bottom: 30px;
+}
+#left div  .top{
+    background-color:#0046c3;
+    padding: 1% 6%;
+    /* margin: 30px 30px 0px 30px; */
+    font-size: 13px;
+    color: white;
+    border-radius: 4px 4px 0px 0px;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: space-between;
+}
+#leftContainer hr{
+    width: 80%;
+    margin: auto;
+   
+}
+
+#leftContainer{
+    width: 85%;
+    margin: auto;
+    margin-top: 7%;
+    /* border: 1px solid brown; */
+}
+#right{
+    /* border: 1px solid blue; */
+    background-color: white;
+    padding: 0% 0.8%;
+}
+#addAProduct{
+    /* border: 1px solid red; */
+    margin-top: 3%;
+    display: flex;
+    background-color: #e0e6ef;
+    padding: 1% 4% 3% 4%;
+    gap: 6%;
+}
+#addAProduct div{
+    margin: 2%;
+}
+.cart {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #0046c3;
+    border: 1px solid blue;
+}
+#upperFoot{
+    width: 90%;
+    font-size: 12px;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    color: rgb(54, 54, 54);
+}
+#delivery{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+#delivery i{
+    font-size: 50px;
+    font-weight: 400;
+}
+#delivery img{
+    width: 47px;
+}
+#delivery div p>a{
+    color: #0046be;
+    font-weight: 600;
+}
+#footer{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 30%;
+    gap: 1.33333%;
+    /* border: 1px solid violet; */
+    /* height: 100px; */
+}
+#footer div{
+    /* border: 1px solid red; */
+}
+.feet a{
+font-size: 13px;
+color: #0046be;
+line-height: 30px;
+}
+.feet h4{
+    margin-bottom: 5px;
+}
+#footer .feet+div p input,button{
+    font-size: 15px;
+    margin: -5px 5px;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+#footer .feet+div p button{
+    background-color: #0046be;
+    color: white;
+    border: none;
+    padding: 7px 20px;
+    border: 1px solid #0046be;
+    margin-bottom: 20px;
+}
+#footer .feet+div i{
+    color: #0046be;
+    font-size: 30px;
+    padding-bottom: 20px;
+    /* padding-top: 25px; */
+    /* margin-top: -5px; */
+}
+#footer .feet+div div>span{
+    font-size: 19px;
+    font-weight: 600;
+    margin: 10px;
+    /* margin-top: -5px; */
+    /* padding-bottom: 25px; */
+    /* margin-bottom: 20px; */
+}
+#footer .feet+div div>a{
+    color: #0046be;
+    margin: 10px;
+    font-weight: 600;
+}
+#lastBottom{
+    width: 95%;
+    margin: auto;
+    font-size: 13px;
+}
