@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In to Best Buy</title>
-    <link rel="stylesheet" href="/bestbuy/bestbuy css/account.css">
+    <link rel="stylesheet" href="/bestbuy css/account.css">
     <script src="https://kit.fontawesome.com/322b14b2ff.js" crossorigin="anonymous"></script>
     <style>
         #form #pass+p {
@@ -20,10 +20,16 @@
 
         #withApple {
             color: black;
-            font-size: 13px;
+            font-size: 14px;
         }
-        #withApple i{
-            font-size: 23px;
+
+        #withApple i {
+            font-size: 22px;
+        }
+
+        #withWebAuthn img {
+            width: 30px;
+            height: 20px;
         }
 
         #withApple:hover {
@@ -41,13 +47,13 @@
     <nav>
         <div>
             <div>
-                <a href="/bestbuy/besbuy HTML/index.html"><img
+                <a href="/besbuy HTML/index.html"><img
                         src="https://www.bestbuy.com/~assets/bby/_com/header-footer/images/bby_logo-a7e90594729ed2e119331378def6c97e.png"
                         alt="no image"></a>
             </div>
             <div></div>
             <div>
-                <a href="/bestbuy/besbuy HTML/index.html">
+                <a href="/besbuy HTML/index.html">
                     <p>Return to previous page</p>
                 </a>
             </div>
@@ -56,16 +62,10 @@
     <div id="strip"></div>
     <div id="createAccount">
         <h3>Sign In to Best Buy</h3>
-        <!-- <p>Shopping for your business? <a href=""> Create a business account.</a></p> -->
         <form id="form">
-            <!-- <input id="fName" type="text" placeholder="First Name"> -->
-            <!-- <input id="lName" type="text" placeholder="Last Name"> -->
             <input id="email" type="email" placeholder="Email Address">
             <input id="pass" type="password" placeholder="Password">
-            <!-- <input id="confirmPass" type="password" placeholder="Confirm Password"> -->
-            <!-- <input id="mobile" type="number" placeholder="Mobile Phone Number"> -->
             <p>
-                <!-- <input type="checkbox" id="checkbox"><label for=""> Use for Account Recovery.</label> -->
                 <a href="">Forgot your password?</a>
             </p>
             <input id="submit" type="submit" value="Sign In">
@@ -76,12 +76,11 @@
                 href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Fwww.bestbuy.com%3Fid%3Dauth963604&response_type=code%20permission%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=369075948042-gku8boqssoqo5bdnkpg2s43mscgsk68i.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fwww.bestbuy.com&access_type=offline&prompt=consent&origin=https%3A%2F%2Fwww.bestbuy.com&gsiwebsdk=2&flowName=GeneralOAuthFlow">
                 <img src="https://www.svgrepo.com/show/164755/fingerprint.svg" alt="">
                 <span>
-                    &nbsp Sign In with WebAuthn
+                    &nbspSign In with WebAuthn
                 </span>
             </a>
         </p>
         <p>
-           
             <a id="withApple" class="signInWith" target="_new"
                 href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Fwww.bestbuy.com%3Fid%3Dauth963604&response_type=code%20permission%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=369075948042-gku8boqssoqo5bdnkpg2s43mscgsk68i.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fwww.bestbuy.com&access_type=offline&prompt=consent&origin=https%3A%2F%2Fwww.bestbuy.com&gsiwebsdk=2&flowName=GeneralOAuthFlow">
                 <i class="fa-brands fa-apple"></i>
@@ -99,13 +98,13 @@
                 </span>
             </a>
         </p>
-        <p>
+        <p class="para">
             By continuing you agree to our <a href=""> Terms and Conditions</a>, our <a href=""> Privacy Policy</a>,
             and the <a href=""> My Best Buy® Program Terms.</a>
         </p>
         <hr>
         <p id="signIn"><b> Don't have an account?</b>
-            <a href="/bestbuy/besbuy HTML/account.html"> Create an account</a>
+            <a href="/besbuy HTML/account.html"> Create an account</a>
         </p>
     </div>
 
@@ -130,4 +129,4 @@
 </body>
 
 </html>
-<script src="/bestbuy/bestbuy js/login.js"></script>
+<script src="/bestbuy js/login.js"></script>
