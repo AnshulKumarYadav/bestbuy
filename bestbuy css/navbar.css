@@ -1,5 +1,5 @@
 header{
-    height: 120px;
+    height: 130px;
     background-color: rgb(9, 53, 197);
     margin: -1%;
     margin-bottom: 0%;
@@ -72,6 +72,7 @@ form{
     width: 50%;
     display: flex;
     justify-content: space-around;
+
 }
 #order{
     width: 43%;

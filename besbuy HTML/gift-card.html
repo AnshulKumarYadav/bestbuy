@@ -4,12 +4,447 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gift-card</title>
     <script src="https://kit.fontawesome.com/322b14b2ff.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/bestbuy css/navbar.css">
+    <link rel="stylesheet" href="/bestbuy/bestbuy css/navbar.css">
+   <style>
+       .a1{
+           font-size: 13.5px;
+           font-family: Arial, Helvetica, sans-serif;
+           text-decoration: none;
+           padding-left: 12%;
+           color: #0046be;
+       }
+       #a11{
+           padding-top: 1%;
+       }
+       .h21{
+           font-size: 22px;
+           font-family:  sans-serif;
+           padding-left: 12%;
+
+       }
+       #cart{
+           display: flex;
+           width: 88%;
+           height: 200%;
+           gap: 10%;
+         
+           border: 1px solid black;
+           background-color: #0046be;
+           padding-left: 10%;
+           margin: auto
+           
+       }
+      #cart>div>h1{
+          font-size: 50px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight:bold ;
+          color: yellow;
+          margin-top: 10%;
+         
+      }
+      #cart>div>h3{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -4%;
+        margin-left: -25px
+      }  
+      #cart>div>button{
+          height: 15%;
+          width: 105%;
+          border-radius: 5px;
+          border: none;
+          color: blue;
+          background-color: white;
+          font-size: 14px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 600;
+          margin-top: 35%;
+          margin-left: -40%;
+      } 
+   #img1{
+       height: 60%;
+       padding-top: 3%;
+   }
+   #line1{
+       width: 75%;
+       border: 1px solid grey;
+       margin: auto;
+      
+       
+   }
+   .h31{
+       margin-left: 10.5%; 
+       font-size: 22px;
+       font-family: Arial, Helvetica, sans-serif;
+       margin-top: 3%;
+   }
+   #container{
+       display: flex;
+       justify-content: center;
+       margin-top: 3%;
+       gap: 2%;
+   }
+   #container>div{
+     
+       height: 300px;
+       width: 17%;
+   }
+     .imgaa{
+         width: 100%;
+         height: 60%;
+         padding-bottom: 10%;
+     }
+     .ancer{
+         
+         text-decoration: none;
+         font-family: sans-serif;
+         font-weight: 600;
+         color: #047cd8;
+         font-size: 17px;
+        
+        
+     }
+     p{
+         font-family: sans-serif;
+         font-size: 15px;
+     }
+     #line2{
+       width: 75%;
+       border: 1px solid grey;
+       margin: auto;
+       margin-top: 0%;
+   }
+   .h32{
+       margin-left: 10.5%; 
+       font-size: 22px;
+       font-family: Arial, Helvetica, sans-serif;
+       margin-top: 5%;
+   }
+   #container1{
+       display: flex;
+       justify-content: center;
+       gap: 8%;
+   }
+   #container1>div{
+     
+       width: 16.5%;
+       height: 360px;
+       margin-top: 2%;
+   }
+   #container1>div>img{
+       width: 100%;
+      
+   }
+  .ancer1{
+      text-decoration: none;
+      font-family: sans-serif;
+      color: #047cd8;
+      font-size: 14px;
+     display: block;
+     padding-top: 2%;
+     text-align: center;
+      
+  }
+  
+  .smalldiv{
+      width: 77%;
+      height: 80px;
+      border: 1px solid black;
+      margin: auto;
+      margin-top: 4%;
+  }
+  #container3{
+      display: flex;
+      justify-content: center;
+  }
+  #same1{
+      
+    width: 38.4%;
+      height: 300px;
+     border: 1px solid grey;
+      display: flex;
+     
+     
+  }
+  #same1>div{
+     
+      width: 50%;
+      height: 100%;
+  }
+  .img1{
+      width: 65%;
+      height: 35%;
+     
+  }
+  h3{
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 30px;
+     
+  }
+  h3>a{
+      text-decoration: none;
+      color: #0046be;
+  }
+  #p1{
+       text-decoration: none;
+       margin-top: 42%;
+       padding-left: 30px;
+       line-height: 18px;
+      
+  }
+  #p2{
+       text-decoration: none;
+      
+       padding-left: 30px;
+       margin-top: 14%;     
+       line-height: 18px;
+  }
+  #p1>p>a{
+      text-decoration: none;
+      color: #0046be;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  #p2>p>a{
+      text-decoration: none;
+      color: #0046be;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .smalldiv>h2{
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 20px;
+      font-size: 23px;
+  }
+  #container4{
+      display: flex;
+      justify-content: center;
+     gap: 30px;
+     margin-top: 5%;
+  }
+  #container4>div{
+      display: flex;
+      border: 1px solid grey;
+      width: 35%;
+      height: 150px;
+      padding: 20px;
+  }
+ .para2{
+     /* width: 80%; */
+     padding-left: 50px;
+     font-size: 16px;
+ }
+ .hpara{
+     padding-left: 50px;
+ }
+ #container5{
+     display: flex;
+     width: 77.5%;
+     height: 160px;
+     border: 1px solid black;
+     margin: auto;
+     margin-top: 3%;
+     background-color: #001e73;
+ }
+ .image22{
+     width: 15%;
+     height: 75%;
+     padding-left: 35px;
+     padding-top: 20px;
+ }
+ #container5>div{
+     padding-left: 80px;
+     line-height: 20px;
+
+ }
+ #container5>div>h1{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ #container5>div>p{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
+     width: 90%;
+ }
+ #container5>div>a{
+     color: gold;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
+    
+ }
+ 
+ #cont1{
+     margin: auto;
+     border: 1px solid grey;
+     width: 77.5%;
+     height: 60px;
+     margin-top: 5%;
+     
+ }
+ #cont1>h2{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 22px;
+     padding-left: 20px;
+    
+ }
+ #cont2{
+    display: flex;
+    justify-content: center;
+    
+     
+ }
+ #cont2>div{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid grey;
+     width: 38.7%;
+     height: 550px;
+ }
+ #cont2>div>h3{
+      padding-left: 20px;
+ }
+ .boxp{
+     font-size: 15px;
+     width: 86%;
+     color: rgb(63, 60, 60);
+     padding-left: 20px;
+     font-family: sans-serif;
+ }
+ h4{
+   margin-left: 11%;
+   font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ .lastp{
+   
+    font-size: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ #lastdiv{
+     margin-top: -1.2%;
+     width: 77%;
+    margin-left: 11%;
+    color: rgb(46, 44, 44);
+ }
+ #container6{
+    height: 930px;
+    width: 100%;
+    background-color: #f0f2f4;
+    margin-top: 180px;
+}
+#container7{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+} 
+#container7>div{
+    width: 300px;
+    height: 150px;
+   
+    margin-top: 50px;
+}
+.imgtr{
+    width: 60px;
+    height: 60px;
+    color: grey;
+    margin-left: 90px;
+}
+.anc22{
+    text-decoration: none;
+    padding-left: 40px;
+    color: #5057d1;
+    font-weight: 600;
+}
+.anc23{
+    text-decoration: none;
+    padding-left: 0px;
+    color: #5057d1;
+    font-weight: 600;
+}
+
+#line4{
+    width: 94%;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: -700px;
+}
+#container8{
+    display: flex;
+   margin-left: 43px;
+}
+#container8>div{
+   
+    width: 310px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container8>div>p{
+    margin-left: 0px;
+    
+}
+#container8>div>h3{
+    margin-left: -10%;
+    
+}
+#container8>div>p>a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #5057d1;
+}
+#line5{
+    width: 94%;
+    border: 1px solid grey;
+    margin: auto;
+   
+}
+#container10{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+}
+#container10>div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    
+   
+}
+#container10>div>p>a{
+    text-decoration: none;
+    color: #5057d1;
+}
+#end{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+    padding-top: 30px;
+}  
+#end>a{
+     text-decoration: none;
+    color: #5057d1;
+}
+.lastpara{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 96%;
+    font-size: 14.5px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+#mob{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+    
+   </style>
+
 </head>
 <body>
     <header>
+        
         <div id="nav1">
             <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/BestBuy_Logo_2020-190616.png;maxHeight=80;maxWidth=136">
             <div id="menu">
@@ -45,6 +480,236 @@
                 <p><a href="saved-items.html">Saved Items</a></p>
             </div>
         </div>
+         <div id="a11"> <a class="a1" href="index.html">Best Buy</a></div>
+          <h2 class="h21">Best Buy Gift Cards</h2>
+          <div id="cart">
+              <div><h1>Give the perfect gift card.</h1>
+                <h3 class="h3s">No expiration date or fees. Get My Best Buy® points.</h3>
+            </div>
+           <img id="img1" src="https://h2ohypnosis.com/wp-content/themes/h2o/images/white-twitter-icon-png-32.jpg" alt="">
+              <div>
+                  <button>Check card balance</button>
+                  <p ><a style="font-size: 15px;text-decoration: underline;color: gold; margin-left: -40%;" href="">Gift card terms and conditions</a></p>
+              </div>
+          </div>
+          <h3 class="h31">What type of gift card would you like?</h3>
+          <div id="line1"></div>
+          <div id="container">
+              <div>
+                  <img class="imgaa" src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/GL-60017-gc-021821-209648.jpg;maxHeight=416;maxWidth=612" alt="">
+                  <p><a class="ancer" href="">Gift Cards</a></p>
+                  <p>Mailed, physical cards. Free 2-day shipping* on orders $25 or more.</p>
+
+              </div>
+              <div>
+                  <img class="imgaa" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrXUBI4-XX4YHPSa_Lyfc2sRFJqtTKnjZG-w&usqp=CAU" alt="">
+                  <p><a class="ancer" href="">E-Gift Cards*</a></p>
+                  <p>Emailed, digital cards. Perfect for when you are short on time.</p>
+              </div>
+              <div>
+                  <img class="imgaa" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRrKnA412RUhwL5gIBbZu5qj2R97w_plkYfA&usqp=CAU" alt="">
+                  <p><a class="ancer" href="">Specialty Gift Cards</a></p>
+                  <p>Shop gaming, dining, movie, music prepaid cell cards and more.</p>
+              </div>
+              <div>
+                  <img class="imgaa" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH2VmUW5F-vAduhF5N4F7zAm04oY4yuY2PsQ&usqp=CAU" alt="">
+                  <p><a class="ancer" href="">Corporate Gift Cards</a></p>
+                  <p>Powerful incentives for businesses big and small.</p>
+              </div>
+          </div>
+          <h3 class="h32">Featured gift cards</h3>
+          <div id="line2"></div>
+          <div id="container1">
+              <div><img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6349/6349738_sd.jpg;maxHeight=200;maxWidth=300" alt="">
+                <a class="ancer1" href=""> Cassette tape gift card</a>
+            </div>
+              <div><img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6321/6321898_sd.jpg;maxHeight=200;maxWidth=300" alt="">
+                <a class="ancer1" href="">White gift card</a>
+            </div>
+              <div><img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6349/6349770_sd.jpg;maxHeight=200;maxWidth=300" alt="">
+                <a class="ancer1" href="">Birthday balloons gift card</a>
+            </div>
+          </div>
+          <div id="container2">
+              <div class="smalldiv">
+                  <h2>Shop gifts by type</h2>
+              </div>
+              <div id="container3">
+                <div id="same1">
+                    <div>
+                        <h3>Best Buy Gift Cards</h3>
+                       <div id="p1">
+                            <p ><a href="">Any occasion gift cards<a></p>
+                            <p ><a href="">Birthday gift cards</a></p>
+                            <p ><a href="">Wedding gift cards</a></p>
+                       </div>
+                    </div>
+                    <div>
+                        <img class="img1" src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/GL-60017-gc-021821-209648.jpg;maxHeight=262;maxWidth=386" alt="">
+                        <div id="p2">
+                            <p><a href="">Congratulations gift cards</a></p>
+                        <p ><a href="">Thank you gift cards</a></p>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div id="same1">
+                    <div>
+                        <h3><a href="">Specialty gift cards</a></h3>
+                        <div id="p1">
+                            <p><a href="">All specialty gift cards</a></p>
+                            <p><a href="">Restaurant gift cards</a></p>
+                            <p><a href="">Retail gift cards</a></p>
+                            <p><a href="">Travel gift cards</a></p>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="img1" src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/SOL-68970-gc-specialty-gc-pol_der-177294.png;maxHeight=262;maxWidth=386" alt="">
+                        <div id="p2">
+                            <p><a href="">Gaming gift cards</a></p>
+                            <p><a href="">TV & movie gift cards</a></p>
+                            <p><a href="">Music gift cards</a></p>
+                            <p><a href="">Prepaid phone cards and calling cards</a></p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+             
+          </div>
+          <div id="container4">
+              <div>
+                  <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/gl-69224-top-tech-pol_der-2b5f7758-4d43-4b05-82ff-33d0a86d420f.jpg;maxHeight=130;maxWidth=192" alt="">
+                  <div>
+                      <h3 class="hpara"><a href="">Tech at the top of every list.</a></h3>
+                      <p class="para2">Shop great tech for all occasions.</p>
+                  </div>
+              </div>
+              <div>
+                  <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-68326-pol-gc-sustainability-211115-694376dd-4e76-472d-be4f-9521b4f25a3b.jpg;maxHeight=130;maxWidth=192" alt="">
+                  <div>
+                      <h3 class="hpara"><a href="">Let’s lighten the landfills.</a></h3>
+                      <p class="para2">100% of Best Buy Gift Cards are now made of paper and can go straight into the recycling bin.</p>
+                  </div>
+              </div>
+          </div>
+          <div id="container5">
+              <img class="image22" src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-65642-alert-icon-f40ba892-6ceb-44cb-81ba-8d6292e7436b.png" alt="">
+              <div>
+                  <h1>Don't become a victim of gift card fraud.</h1>
+                  <p>We want to help you recognize and avoid gift card scams. Check out these tips and resources explaining more about this growing issue.</p>
+                  <a href="">Learn more about gift card fraud</a>
+              </div>
+          </div>
+          <div id="container66">
+              <div id="cont1">
+                  <h2>About Best Buy® Gift Cards</h2>
+              </div>
+              <div id="cont2">
+               <div>
+                 <h3>Buy gift cards online.</h3>
+                      <p class="boxp">Shop our wide selection of holiday, happy birthday and thank you gift cards. We also sell gift cards for graduations, weddings, Father's Day, Mother's Day and many other special occasions, each with a unique gift card design featuring distinctive and festive packaging.</p>
+                      <p class="boxp">Not only can you buy gift cards online and have them shipped for free, but you can also purchase and email an e-gift card directly to a recipient's inbox with a personal message. These virtual gift cards can be used at BestBuy.com, allowing your recipient to start shopping right away.</p>
+                      <p class="boxp">Buy gift cards in dollar amounts ranging from $15 to $500 and have them shipped for free. It is easy to check your gift card balance and get <a href="">gift card help</a> online, and there are no fees or expiration dates to worry about. Usable online or in store, Best Buy Gift Cards and online gift cards are the perfect gift to ensure your friends and family get the gifts on their wish list.</p>
+
+                  <h3>Gift cards make holiday gifting easier.</h3>
+                      <p class="boxp">Skip the holiday lines this year and give everyone on your list the chance to choose their perfect gift with Best Buy holiday gift cards. You'll never have to worry about coming up with <a href="">gift ideas</a>, picking out the right size, or finding the perfect color with a gift card. With free shipping and no expiration dates, you can order all of your gifts online and have them shipped to you or the gift recipient of your choice. Tuck Christmas gift cards in stockings, slip them into holiday greeting cards, or wrap them up for something extra special that anyone would be thrilled to open.</p>
+               </div> 
+               <div>
+                   <h3>Important information about Best Buy Gift Cards.</h3>
+                    <p class="boxp">To help the government fight the funding of terrorism and money laundering activities, Best Buy has limited the maximum value of each gift card to $500. Best Buy Gift Cards may not be redeemed using a mobile wallet.</p>
+                    <h3>Protect yourself against gift card scams.</h3>
+                    <p class="boxp">We want to help customers like you understand how to recognize and avoid gift card scams, so we’ve put together some tips and resources to help keep you safe. Visit our help page to learn more about this growing issue and <a href="">see information on avoiding gift card scams.</a></p>
+               </div>
+            </div>
+          </div>
+          <h4>Two-Day Shipping Details:</h4>
+          <div id="lastdiv"><p class="lastp">*E-gift cards and taxes do not count toward the $25 gift card order total. If an order cancellation lowers the total purchase of gift cards to less than $25, the regular shipping times of the remaining cards will apply. Allow two business days if order is placed before 10:30 a.m. CT. Estimated arrival dates are reflected in your cart. Additional processing time may apply.</p></div>
+          <h4>External Link Notification:</h4>
+         <div id="lastdiv"><p class="lastp">*By clicking the CashStar link, you are entering a site hosted and operated by CashStar. Please review their Privacy Policy. All personal information you provide is subject to that Privacy Policy. Different terms and conditions may apply. </p></div>
+         <div id="container6">
+            <div id="container7">
+                <div>
+                    <img class="imgtr" src="https://icones.pro/wp-content/uploads/2021/05/icone-point-d-interrogation-question-gris.png" alt="">
+                    <p><a class="anc22" href="">Visit our Support Center</a></p>
+                </div>
+                <div>
+                    <img class="imgtr" src="https://cdn2.iconfinder.com/data/icons/shipping-delivery/24/box-1-512.png" alt="">
+                    <p><a class="anc22" href="">Check your Order Status</a></p>
+                </div>
+                <div>
+                    <img class="imgtr" src="https://www.dyson.in/media/cms/free-delivery.png" alt="">
+                    <p><a class="anc23" href="">Shipping, Delivery & Store Pickup</a></p>
+                </div>
+                <div>
+                    <img class="imgtr" src="https://cdn1.iconfinder.com/data/icons/arrows-ii/24/Material_icons-02-74-512.png" alt="">
+                    <p><a class="anc22" href="">Returns & Exchanges</a></p>
+                </div>
+            </div>
+      
+        </div>
+        <div id="line4"></div>
+        <div id="container8">
+            <div>
+                <h3>Order & Purchases</h3>
+                <p><a href="">Check Order Status</a></p>
+                <p><a href="">Shipping, Delivery & Pickup</a></p>
+                <p><a href="">Returns & Exchanges</a></p>
+                <p><a href="">Price Match Guarantee</a></p>
+                <p><a href="">Product Recalls</a></p>
+                <p><a href="">Trade-In Program</a></p>
+                <p><a href="">Gift Cards</a></p>
+                <h3>Payment Options</h3>
+                <p><a href="">My Best Buy® Credit Card</a></p>
+                <p><a href="">Pay Your Bill at Citibank</a></p>
+                <p><a href="">Lease to Own</a></p>
+            </div>
+            <div>
+                <h3>Support & Services</h3>
+                <p><a href="">Visit our Support Center</a></p>
+                <p><a href="">Shop with an Exepert</a></p>
+                <p><a href="">Schedule a Service</a></p>
+                <p><a href="">Manage an Appointment</a></p>
+                <p><a href="">Protection & Support Plans</a></p>
+                <p><a href="">Haul Away & Recycling</a></p>
+                <p><a href="">Contact</a></p>
+                <h3>Rewards & Membership</h3>
+                <p><a href="">Best Buy Toaltech</a></p>
+                <p><a href="">My Best Buy</a></p>
+                <p><a href="">View Points & Certificates</a></p>
+                <p><a href="">Member Offers</a></p>
+            </div>
+            <div>
+                <h3>Partnerships</h3>
+                <p><a href="">Affiliate Program</a></p>
+                <p><a href="">Advertise with Us</a></p>
+                <p><a href="">Developers</a></p>
+                <p><a href="">Best Buy Health</a></p>
+                <p><a href="">Best Buy Education</a></p>
+                <p><a href="">Best Buy Businesss</a></p>
+                <p><a href="">.</a></p>
+                <h3>About Best Buy</h3>
+                <p><a href="">Corporation Information</a></p>
+                <p><a href="">Careers</a></p>
+                <p><a href="">Corporate REsponsibility & Sustainability</a></p>
+                <p><a href="">Discover & Learn</a></p>
+            </div>
+            <div >
+               
+              
+            </div>
+        </div>
+        <div id="container10">
+            <div><p>How was your experience?
+              <a href="">Give feedback about our website</a></p></div>
+              <div id="mob"><p><a href="">Mobile Site
+              </a></p><p><a href="">Best Buy Canada</a></p>
+          </div>
+      </div>
+        <div id="line5"></div>
+        <div id="end"><a href="">Accessibility</a><a href="">Terms & Conditions</a>
+          <a href="">Privacy</a><a href="">Interest-Based Ads</a><a href="">California Privacy Rights</a><a href="">Do Not Sell My Personal Information</a><a href="">California Supply Chain Transparency Act</a>
+      </div>
+      <p class="lastpara">In-store pricing may vary. Prices and offers are subject to change. © 2022 Best Buy. All rights reserved. BEST BUY, the BEST BUY logo, the tag design, and MY BEST BUY are trademarks of Best Buy and its affiliated companies.</p>
     </header>
 
 </body>
