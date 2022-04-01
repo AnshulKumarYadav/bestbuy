@@ -12,7 +12,7 @@ function createAccountFun() {
 
        for (var i = 0; i < userObjectArray.length; i++) {
               if (email == userObjectArray[i].email) {
-                     alert("Email id already is used!");
+                     alert("Email id is already in used!");
                      clearInputField();
                      return;
               }

@@ -76,3 +76,17 @@ width: 100%;
    width: 100%;
     color: #4979e6;
 }
+
+
+#canada:hover {
+    border: 2px solid yellow;
+    cursor: pointer;
+}
+#us:hover {
+    border: 2px solid yellow;
+    cursor: pointer;
+}
+#mexico:hover {
+    border: 2px solid yellow;
+    cursor: pointer;
+}

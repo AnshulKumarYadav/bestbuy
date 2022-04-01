@@ -1,7 +1,4 @@
 var forSignIn = JSON.parse(localStorage.getItem("bestBuyUserDetails"));
-// console.log(forSignIn);
-// console.log("***********************************************************************");
-// console.log(forSignIn);
 document.querySelector("#form").addEventListener("submit", signInFunction);
 var signInArray = [];
 function signInFunction() {
@@ -12,7 +9,7 @@ function signInFunction() {
             if (email == forSignIn[i].email && password == forSignIn[i].password) {
                 if(email!=null || password!=null){
                         // alert("sign in successfull")
-                        window.open("https://www.bestbuy.ca/en-ca","_self");
+                        window.open("profile.html" ,"_self");
                         return;
                 }
             }
@@ -20,4 +17,6 @@ function signInFunction() {
                         alert("Wrong password or email"); 
             }
       }
+      document.querySelector("#email").value = "";
+       document.querySelector("#pass").value = "";
 }

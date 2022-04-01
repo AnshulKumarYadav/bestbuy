@@ -47,9 +47,13 @@ nav>div a {
 }
 
 #createAccount p,hr {
-    font-size: 13px;
+    font-size: 14px;
     width: 330px;
     margin: auto;
+}
+#createAccount .para{
+font-size: 12px;
+text-align: left;
 }
 a:hover{
     text-decoration: underline;
@@ -94,10 +98,12 @@ hr{
     font-weight: 600;
     cursor: pointer;
 }
-
+#form #submit:hover{
+    background-color: rgb(4, 4, 100);
+}
 #form #checkbox {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     border: 1px solid blue;
 }
 
@@ -120,7 +126,6 @@ hr{
     font-weight: 600;
     cursor: pointer;
     border: 1px solid #0046be;
-    color: #0046be;
     border-radius: 4px;
     text-decoration: none;
 }
@@ -131,14 +136,14 @@ hr{
     background-color: rgb(4, 4, 100);
 }
 img {
-    height: 18px;
+    height: 16px;
 }
-#signIn{
+#createAccount #signIn{
     padding-bottom: 20px;
-    /* border: 1px solid blue; */
+    text-align: left;
+    font-size: 12px;
 }
 #footer{
-    /* border: 1px solid yellow; */
     background-color: #f0f2f4;
     margin: -8px;
 }
@@ -157,4 +162,3 @@ img {
     font-family: "Human BBY Digital", "Human Fallback", Arial, Helvetica, sans-serif;
     padding-bottom: 15px;
 }
-
