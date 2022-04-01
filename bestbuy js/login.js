@@ -9,7 +9,7 @@ function signInFunction() {
             if (email == forSignIn[i].email && password == forSignIn[i].password) {
                 if(email!=null || password!=null){
                         // alert("sign in successfull")
-                        window.open("https://www.bestbuy.ca/en-ca","_self");
+                        window.open("profile.html");
                         return;
                 }
             }
