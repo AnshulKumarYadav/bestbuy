@@ -1,8 +1,7 @@
-
-var saved = document.querySelector("#saved").addEventListener("click",showFunction)
+var order = document.querySelector("#order").addEventListener("click",showFunction)
 var close = document.querySelector("#close").addEventListener("click",hideFunction)
-var box = document.querySelector("#saved-content");
-var save = document.querySelector("#saved-items");
+var box = document.querySelector("#order-content");
+var save = document.querySelector("#order-status");
 function showFunction()
 {
     box.style.opacity="1";

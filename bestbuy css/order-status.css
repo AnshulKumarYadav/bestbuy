@@ -1,9 +1,9 @@
-#saved-items{
-    height: 0;
+#order-status{
+  height: 0;
     width: 100%;
     
 }
-#saved-content{
+#order-content{
     width: 83%;
     height: 60%;
     margin-left: 17%;
@@ -42,7 +42,7 @@
 }
 #bottom-content{
     display: flex;
-    width: 60%;
+    width: 48%;
     margin: auto;
     margin-top: 30px;
 }
@@ -56,8 +56,20 @@
     height: 250px;
     margin-left: 20px;
 }
-#saved-items .hr{
+#order-status .hr{
     background-color: grey;
     width: 90%;
     margin: auto;
+}
+#bottom-content button{
+    width: 300px;
+    height: 30px;
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+#bottom-content button:hover{
+    background-color: rgb(15, 15, 180);
 }

@@ -8,8 +8,7 @@
     <script src="https://kit.fontawesome.com/322b14b2ff.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/bestbuy css/navbar.css">
     <link rel="stylesheet" href="/bestbuy css/home.css">
-   
-</style>
+    <script src="/bestbuy js/home.js"></script>
 </head>
 <body>
     <header>
@@ -44,15 +43,55 @@
             <div id="order">
                 <p><a href="account.html">Account</a></p>
                 <p><a href="recentlyviewed.html">Recently Viewed</a></p>
-                <p><a href="order-status.html">Order Status</a></p>
-                <p><a href="saved-items.html">Saved Items</a></p>
+                <p id="order" style="color: white;">Order Status</p>
+                <p id="saved" style="color: white;">Saved Items</p>
             </div>
         </div>
     </header>
-
-    <!-- write your code here  -->
-    <!-- for slide view visit here -- https://www.w3schools.com/howto/howto_js_slideshow.asp  -->
-    <!-- keep webpage responsive   -->
+    <div id="saved-items">
+        <div id="saved-content">
+        <div class="top-content">
+        <i class="fa-solid fa-bookmark"></i>
+        <h1>Saved Items</h1>
+        <div class="vline"></div>
+        <a href="">See all your saved items > </a>
+        <i class="close2" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="hr"></div>
+        <div class="bottom-content">
+            <div>
+            <h1>Looks like you don't have anything saved...</h1>
+            <p>When you see something you like, hit "save" and we'll keep track of it here.</p>
+            <p><a href="login.html">Sign in </a> or <a href="account.html">create an account</a> to see your stuff on all your devices.</p>
+            </div>
+        <div>
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/en_US/images/abn/2015/global/qa2/sh_zs_bs_v2.png;maxHeight=992;maxWidth=260" alt="">
+        </div>
+        </div>
+        </div>
+    </div>
+    <div id="order-status">
+        <div id="order-content">
+        <div class="top-content">
+            <i class="fa-solid fa-box-open"></i>
+        <h1>Order Status</h1>
+        <div class="vline"></div>
+        <i class="close1" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="hr"></div>
+        <div class="bottom-content">
+            <div>
+            <h1>Hi there! Looking
+                for a current order?</h1>
+            <p>You'll need to sign in or have your order number handy.</p>
+            <button>Continue</button>
+            </div>
+        <div>
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/en_US/images/abn/2015/global/qa2/sh_zs_bs_v2.png;maxHeight=992;maxWidth=260" alt="">
+        </div>
+        </div>
+        </div>
+    </div>
 
     <footer>
         <div class="box-1">
@@ -124,7 +163,7 @@
                 <a href="">Corporate Responsibility & Sustainability</a><br>
                 <a href="">Discover & Learn</a>
             </div>
-            <div id="contact">
+            <div class="contact">
                 <a href="">Sign in or Create Account</a>
                 <hr>
                 <div class="small-box-1">

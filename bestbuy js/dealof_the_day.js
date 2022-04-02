@@ -1,5 +1,5 @@
 
-var obj = [
+var bonusData = [
     {image:"https://www.bowflex.com/dw/image/v2/AAYW_PRD/on/demandware.static/-/Sites-nautilus-master-catalog/default/dw962d7757/images/bowflex/bikes/velocore/100925/velocore-bowflex-bike-16.png?sw=1200&sh=800&sm=fit",name:"Bowflex - VeloCore Bike (16' Console) - Black",price:"$1,099.99",save:"$900",wasPrice:"$1,999.99"},
     {image:"https://media.hearstapps.com/vader-prod.s3.amazonaws.com/1648570923-6461452_rd.jpg?width=600",name:"Bella Pro Series - 9-qt. Digital Air Fryer with Dual Flex Basket - Stainless Steel",price:"$79.99",save:"Save $100",wasPrice:"$179.99"},
     {image:"https://m.media-amazon.com/images/I/71DwqGSnhEL._SX450_.jpg",name:"Cuisinart - 12-Piece Cookware Set - Stainless Steel",price:"$89.99",save:"$9.99",wasPrice:"$299.99"},
@@ -17,3 +17,93 @@ var obj = [
     {image:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6480/6480596_sd.jpg;maxHeight=640;maxWidth=550",name:"Walker Edison - Farmhouse Barn Door TV Stand for Most TVs up to 65” - Rustic Oak/brushed white",price:"$204.99",save:"$145.99",wasPrice:"$349.99"},
     {image:"https://www.cnet.com/a/img/resize/125d5e8f6872a2e770cb61b81a05340a8fd887fb/2020/08/03/b3dd8f41-cce2-4589-ab3a-73cbdf2af2fb/6291884cv18d.jpg?auto=webp&fit=crop&height=675&width=1200",name:"Cuisinart - 12-Piece Cookware Set - Stainless Steel",price:"$89.99",save:"$89.99",WasPrice:"$299.99"}
 ]
+
+
+bonusData.map(function(elem){
+    var img = document.createElement("img");
+    img.src = elem.image;
+
+    var name = document.createElement("a");
+    name.src=elem.name;
+
+    var price = document.createElement("h1");
+    price.innerText=elem.price;
+
+    var savePrice = document.createElement("p");
+    savePrice.innerText = elem.save;
+
+    var wasPrice = document.createElement("p");
+    wasPrice.innerText = elem.wasPrice;
+
+    var btn = document.querySelector("button");
+    btn.innerText="Add To Cart";
+    btn.addEventListener("click",function(){
+        mufunction(elem);
+    });
+
+    var bonusBox = document.createElement("div");
+
+    var x = document.querySelector("#bonus-deals");
+
+    bonusBox.append(img,name,price,savePrice,wasPrice,btn);
+    x.append(bonusBox);
+
+})
+
+function mufunction()
+{
+    console.log(bonusData);
+    localStorage.setItem("cartData",JSON.stringify(bonusData));
+}
+
+
+
+
+
+
+// var sliderData = [
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,}, 
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+//     {imageItem:,Itemname:,},
+
+
+// ]
+
+
+
+// sliderData.map(function(ele){
+//     var box2 = document.createElement("div");
+
+//     var Itemimg = document.createElement("img");
+//     Itemimg.src = ele.imageItem;
+
+//     var Item = document.createElement("p");
+//     Item.innerText = ele.Itemname;
+
+//     box2.append(Itemimg,Itemname);
+// })
