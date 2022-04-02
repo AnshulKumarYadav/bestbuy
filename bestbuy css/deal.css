@@ -75,4 +75,37 @@
 
 
 
+  #slider-topdeals{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   margin-bottom: 30px;
+  }
+  #slider-topdeals>div{
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+  }
+  #slider-topdeals>div:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  
+  #slider-foryou{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 30px;
+  }
+  #slider-foryou>div{
+    width: 200px;
+    height: 250px;
+  
+  }
+  #slider-foryou img{
+    width: 200px ;
+    height: 150px;
+  }
+
+
   

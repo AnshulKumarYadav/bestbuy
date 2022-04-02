@@ -6,17 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <script src="https://kit.fontawesome.com/322b14b2ff.js" crossorigin="anonymous"></script>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="/bestbuy css/navbar.css">
-    <link rel="stylesheet" href="/bestbuy css/home.css">
-    <script src="/bestbuy js/home.js"></script>
-=======
-    <link rel="stylesheet" href="/bestbuy/bestbuy css/navbar.css">
-    <link rel="stylesheet" href="/bestbuy/bestbuy css/home.css">
-    <link rel="stylesheet" href="/bestbuy/bestbuy css/profile.css">
-   
-</style>
->>>>>>> 4ae2e56d86e70e7a1138b64179afc616aa70a312
+    <link rel="stylesheet" href="bestbuy/bestbuy css/navbar.css">
+    <link rel="stylesheet" href="bestbuy/bestbuy css/home.css">
+    <script src="bestbuy/bestbuy js/home.js" defer></script>
 </head>
 <body>
     <header>
@@ -56,7 +48,6 @@
             </div>
         </div>
     </header>
-<<<<<<< HEAD
     <div id="saved-items">
         <div id="saved-content">
         <div class="top-content">
@@ -64,7 +55,7 @@
         <h1>Saved Items</h1>
         <div class="vline"></div>
         <a href="">See all your saved items > </a>
-        <i class="close2" class="fa-solid fa-xmark"></i>
+        <i id="close2" class="fa-solid fa-xmark"></i>
         </div>
         <div class="hr"></div>
         <div class="bottom-content">
@@ -85,7 +76,7 @@
             <i class="fa-solid fa-box-open"></i>
         <h1>Order Status</h1>
         <div class="vline"></div>
-        <i class="close1" class="fa-solid fa-xmark"></i>
+        <i id="close1" class="fa-solid fa-xmark"></i>
         </div>
         <div class="hr"></div>
         <div class="bottom-content">
@@ -93,27 +84,16 @@
             <h1>Hi there! Looking
                 for a current order?</h1>
             <p>You'll need to sign in or have your order number handy.</p>
-            <button>Continue</button>
+            <button id="buttonorder" onclick="clickfunction">Continue</button>
             </div>
         <div>
             <img src="https://pisces.bbystatic.com/image2/BestBuy_US/en_US/images/abn/2015/global/qa2/sh_zs_bs_v2.png;maxHeight=992;maxWidth=260" alt="">
         </div>
         </div>
         </div>
-=======
-
-    <!-- write your code here  -->
-    <!-- for slide view visit here -- https://www.w3schools.com/howto/howto_js_slideshow.asp  -->
-    <!-- keep webpage responsive   -->
-    <div style="height: 200px; background-color: white;">
-        <h2>
-            write your code here
-        </h2>
->>>>>>> 4ae2e56d86e70e7a1138b64179afc616aa70a312
     </div>
-
-    <!-- Footer starting from here -->
-    <!-- <footer> 
+    
+    <footer>
         <div class="box-1">
             <div>
                 <p><i class="fa-regular fa-circle-question"></i></p><br>
@@ -123,21 +103,22 @@
             <div>
 
                 <p><i class="fa-solid fa-box"></i></p><br>
-                <a href="">Check Your Order Status</a> 
+                <a href="">Check Your Order Status</a>
             </div>
             <div>
 
                 <p><i class="fa-solid fa-truck-moving"></i></p><br>
                 <a href="">Shipping, Delivery & Store Pickup</a>
-                
+
             </div>
             <div>
-                
+
                 <p><i class="fa-solid fa-right-left"></i></p><br>
                 <a href="">Returns & Exchanges</a>
 
             </div>
         </div>
+        <div style="height: 1px;width: 95%; margin: auto; background-color:  gray; margin-top: 20px;"></div>
         <div class="box-2">
             <div>
                 <h3> Order & Purchases</h3>
@@ -183,17 +164,17 @@
                 <a href="">Corporate Responsibility & Sustainability</a><br>
                 <a href="">Discover & Learn</a>
             </div>
-            <div class="contact">
+            <div id="contact">
                 <a href="">Sign in or Create Account</a>
-                <hr>
+                <div style="height: 1px ; background-color: gray;margin-top: -20px;" ></div>
                 <div class="small-box-1">
                     <h3>Get the latest deals and more.</h3>
-                    <input type="email" placeholder="Enter your email">
-                    <button>sign up</button>
+                    <input type="email" placeholder="Enter email" style="width: 90%;"><br>
+                    <button style="width: 90%;">sign up</button>
                 </div>
                 <div class="small-box-2">
                     <h3>Best buy app</h3>
- 
+
                 </div>
                 <div class="small-box-3">
                     <i class="fa-brands fa-facebook"></i>
@@ -203,15 +184,13 @@
                     <i class="fa-brands fa-youtube-square"></i>
 
                 </div>
-                <div class="small-box-4">
-                    <a href="">Forums, blogs & more</a>
-
-                </div>
             </div>
         </div>
         <div class="last">
             <div>
-                <div><p>How was your experience?<a href="">Give feedback about our website</a></p></div>
+                <div>
+                    <p>How was your experience?<a href="">Give feedback about our website</a></p>
+                </div>
                 <div><a href="">Mobile Site</a> <a href="">Best Buy Canada</a></div>
             </div>
             <div>
@@ -224,119 +203,11 @@
                 <a href="">California Supply Chain Transparency Act</a>
             </div>
             <div>
-                <p>In-store pricing may vary. Prices and offers are subject to change. © 2022 Best Buy. All rights reserved. BEST BUY, the BEST BUY logo, the tag design, and MY BEST BUY are trademarks of Best Buy and its affiliated companies.</p>
+                <p>In-store pricing may vary. Prices and offers are subject to change. © 2022 Best Buy. All rights
+                    reserved. BEST BUY, the BEST BUY logo, the tag design, and MY BEST BUY are trademarks of Best Buy
+                    and its affiliated companies.</p>
             </div>
         </div>
-    </footer>  -->
-    <div id="delivery">
-        <div>
-              <i class="fa-regular fa-circle-question"></i>
-              <p><a href="">Visit our support system</a></p>
-        </div>
-        <div>
-              <i class="fa-brands fa-shopify"></i>
-              <p><a href="">Check your order Status</a></p>
-        </div>
-        <div>
-              <img src="/bestbuy/img/truck-fast-solid.svg" alt="">
-              <p><a href="">Shipping Delivery and store pickup</a></p>
-        </div>
-        <div>
-              <img src="/bestbuy/img/retweet-solid.svg" alt="">
-              <p><a href="">Returns and Exchanges</a></p>
-        </div>
-
-  </div>
-  <hr>
-  <div id="footer">
-        <div class="feet">
-              <h4>Order & Purchases</h4>
-              <a href=""> Check Order Status </a><br>
-              <a href=""> Shipping, Delivery & Pickup </a><br>
-              <a href=""> Returns & Exchanges </a><br>
-              <a href=""> Price Match Guarantee </a><br>
-              <a href=""> Product Recalls </a><br>
-              <a href=""> Trade-In Program </a><br>
-              <a href=""> Gift Cards </a>
-              <h4> Payment Options </h4>
-              <a href=""> My Best Buy® Credit Card </a><br>
-              <a href=""> Pay Your Bill at Citibank</a><br>
-              <a href=""> Lease to Own</a>
-        </div>
-        <div class="feet">
-              <h4>Support & Services</h4>
-              <a href="">Visit our Support Center</a><br>
-              <a href="">Shop with an Expert</a><br>
-              <a href="">Schedule a Service</a><br>
-              <a href="">Manage an Appointment</a><br>
-              <a href="">Protection & Support Plans</a><br>
-              <a href="">Haul Away & Recycling</a><br>
-              <a href="">Contact Us</a>
-              <h4> Rewards & Membership </h4>
-              <a href="">Best Buy Totaltech </a><br>
-              <a href=""> My Best Buy</a><br>
-              <a href=""> View Points & Certificates</a><br>
-              <a href=""> Member Offers</a>
-        </div>
-        <div class="feet">
-              <h4>Partnerships</h4>
-
-              <a href=""> Affiliate Program </a><br>
-              <a href=""> Advertise with Us </a><br>
-              <a href=""> Developers </a><br>
-              <a href=""> Best Buy Health </a><br>
-              <a href=""> Best Buy Education </a><br>
-              <a href=""> Best Buy Business </a><br>
-              <h4>About Best Buy</h4>
-              <a href=""> Corporate Information </a><br>
-              <a href=""> Careers </a><br>
-              <a href=""> Corporate Responsibility & Sustainability </a><br>
-              <a href=""> Discover & Learn </a><br>
-        </div>
-        <div style="background-color: white;padding: 0px 25px;">
-              <p><a style="color: #0046c3;" href="account.html">
-                          sign in or create account
-                    </a></p>
-              <h4>Get the latest deals and more.</h4>
-              <p>
-                    <input type="text" placeholder="Enter email addres"><button>sign up</button>
-              </p>
-              <hr>
-              <div style="display: flex; margin-top: 30px;">
-                    <div ><i style="font-size: 50px;" class="fa-brands fa-app-store-ios"></i></div>
-                    <div><span>Best Buy app</span><br>
-                          <a href="">Learn more ></a>
-                    </div>
-              </div>
-              <hr>
-              <div style="display: flex;justify-content: space-between;">
-                    <p class="social">
-                          <i class="fa-brands fa-facebook"></i>
-                    </p>
-                    <p class="social">
-                          <i class="fa-brands fa-twitter"></i>
-                    </p>
-                    <p v>
-                          <i class="fa-brands fa-instagram"></i>
-                    </p>
-                    <p class="social">
-                          <i class="fa-brands fa-pinterest"></i>
-                    </p>
-                    <p class="social">
-                          <i class="fa-brands fa-youtube"></i>
-                    </p>
-              </div>
-              <hr>
-              <a style="color: #0046c3;" href="">Forums, blogs & more</a>
-        </div>
-  </div>
-  <div id="lastBottom">
-<p>  How was your experience?  <a style="color: #0046c3;text-decoration: underline;" href=""> Give feedback about our website</a>
-  </p>
-  <p>
-        In-store pricing may vary. Prices and offers are subject to change. © 2022 Best Buy. All rights reserved. BEST BUY, the BEST BUY logo, the tag design,
-         and MY BEST BUY are trademarks of Best Buy and its affiliated companies.
-  </p>
-  </div>
+    </footer>
 </body>
 </html>
