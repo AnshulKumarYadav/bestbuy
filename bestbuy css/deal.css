@@ -2,23 +2,92 @@
    display: flex;
    width: 100%;
    height: 400px;
+   margin-bottom:50px;
  }  
  #box1 img{
    width:100%;
    height: 100%;
+   margin-right:80px;
  }
+ #box1a{
+   margin-right:50px;
+ }
+ #box1 h3{
+   width:630px;
+ }
+ #box1 h5{
+   color:green;
+ }
+ .checked {
+  color: orange;
+}
+#box1 button{
+  background-color:white;
+  margin-right:240px;
+  border:0px;
+  color:blue;
+}
+#box2a button{
+  color:black;
+  margin-top:15px;
+  width: 130px;
+    height:30px;
+    background-color:yellow;
+    border-radius:5px;
+    border:0px solid black;
+    margin-left:10px;
+}
+#box2a button:hover{
+  background-color:rgb(195, 195, 64);
+  color:black;
+}
+#box1 button:hover{
+  color:rgb(15, 15, 138);
+  text-decoration:underline;
+}
+
+ /* start from here for box1 */
    
  #bonus-deals{
    display: grid;
    grid-template-columns: repeat(4,1fr);
-   grid-template-rows: repeat(4,300px);
+   grid-template-rows: repeat(4,400px);
   }
   #bonus-deals>div{
     border: 1px solid black;
   }
   #bonus-deals img{
+    width: 220px;
+    height: 150px;
+    margin-right:129px;
+    margin-bottom:5px;
+  }
+  #bonus-deals button{
     width: 100px;
-    height: 100px;
+    height:30px;
+    background-color:yellow;
+    border-radius:5px;
+    border:none;
+    margin-left:10px;
+  }
+  #bonus-deals button:hover{
+    background-color:rgb(195, 195, 64);
+  }
+  #namee{
+    margin-left:0px;
+    margin-top:10px;
+    text-align:left;
+  }
+  #pricee{
+    margin-left:10px;
+  }
+  #saveprice{
+    background-color: rgb(240, 121, 121);
+    width: 88px;
+    margin-left:10px;
+  }
+  #wasprice{
+    margin-left:10px;
   }
 
   #form{
@@ -32,12 +101,27 @@
   #form-box{
     display: flex;
     justify-content: space-between;
-   
+  }
+  #form-box button{
+    background-color:blue;
+    color:white;
+    border:0px;
+    height:30px;
+    width:100px;
+    border-radius:5px;
+  }
+  #form-box input{
+    width:300px;
+    height:30px;
+  }
+  #form-box button:hover{
+    background-color:rgb(15, 15, 138);
   }
   #form-box div{
     width: 48%;
     height: 250px;
     box-shadow: rgba(34, 157, 244, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color:rgb(229, 238, 246)
   }
 
   #delivery{
