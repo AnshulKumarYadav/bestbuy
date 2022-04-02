@@ -37,16 +37,36 @@ body{
     background-color: rgb(3, 3, 121);
     color: #fff;
 }
-#addIems{
+#addItemstoCart{
     background-color: #fff;
-    margin-top: 20px;
-    
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
 }
-#addItems>div{
-    width: 90%;
-    margin: auto;
+#addItemstoCart>div{
+    display: flex;
+    justify-content: space-between;
+    border: 1px teal;
 }
-#addItems .hr{
+#imagetoCart{
+    width: 160px;
+    height: 140px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* #nameofItem{
+    width: 120px;
+    height: fit-content;
+    padding: 10px;
+    margin-bottom: 10px;
+} */
+#addItemstoCart img{
+    width: 120px;
+    height: 100px;
+}
+#addItemstoCart .hr{
     background-color: grey;
 }
 #saved-items{
@@ -96,6 +116,10 @@ body{
 #checkout .hr{
     background-color: grey;
 }
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+  }
 #checkout-button{
     width: 94%;
     height: 50px;

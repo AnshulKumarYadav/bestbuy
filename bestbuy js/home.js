@@ -31,16 +31,19 @@ function orderFunction()
     box2.style.opacity="1";
     save.style.height="700px";
     save.style.backgroundColor="rgba(0,0,0,0.3)";
+    Orderstatus.style.height="0";
+    Orderstatus.style.backgroundColor="transparent";
+    box.style.opacity="0";
     
 }
 function hideOrderFunction()
 {
     box2.style.opacity="0";
-    box.style.opacity="0";
+    // box.style.opacity="0";
     save.style.backgroundColor="transparent";
-    Orderstatus.style.backgroundColor="transparent";
+    // Orderstatus.style.backgroundColor="transparent";
     save.style.height="0";
-    Orderstatus.style.height="0";
+    // Orderstatus.style.height="0";
 }
 
 

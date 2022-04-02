@@ -18,13 +18,14 @@ var bonusData = [
     {image:"https://www.cnet.com/a/img/resize/125d5e8f6872a2e770cb61b81a05340a8fd887fb/2020/08/03/b3dd8f41-cce2-4589-ab3a-73cbdf2af2fb/6291884cv18d.jpg?auto=webp&fit=crop&height=675&width=1200",name:"Cuisinart - 12-Piece Cookware Set - Stainless Steel",price:"$89.99",save:"$89.99",WasPrice:"$299.99"}
 ]
 
+var arrObj = JSON.parse(localStorage.getItem("arrObj")) || [];
 
 bonusData.map(function(elem){
     var img = document.createElement("img");
     img.src = elem.image;
 
     var name = document.createElement("a");
-    name.src=elem.name;
+    name.innerText=elem.name;
 
     var price = document.createElement("h1");
     price.innerText=elem.price;
@@ -35,7 +36,7 @@ bonusData.map(function(elem){
     var wasPrice = document.createElement("p");
     wasPrice.innerText = elem.wasPrice;
 
-    var btn = document.querySelector("button");
+    var btn = document.createElement("button");
     btn.innerText="Add To Cart";
     btn.addEventListener("click",function(){
         mufunction(elem);
@@ -48,12 +49,14 @@ bonusData.map(function(elem){
     bonusBox.append(img,name,price,savePrice,wasPrice,btn);
     x.append(bonusBox);
 
+
 })
 
-function mufunction()
+function mufunction(elem)
 {
-    console.log(bonusData);
-    localStorage.setItem("cartData",JSON.stringify(bonusData));
+    arrObj.push(elem);
+    // console.log(arrObj)
+    localStorage.setItem("cartData",JSON.stringify(arrObj));
 }
 
 

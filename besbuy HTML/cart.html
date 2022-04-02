@@ -61,25 +61,29 @@
             </div>
             <button>Unlock Savings</button>
         </div>
-        <div id="addItems">
+        <div id="addItemstoCart">
             <div>
-                <img src="">
+            <div id="imagetoCart"></div>
+            <div><p id="nameofItem"></p></div>
+            <div id="form" style="width: 200px; height: 300px; display: grid;grid-template-columns: 200px;grid-template-rows: repeat(2,150px);justify-content: space-evenly;">
             </div>
-            <div><p>adfsdgsfdgsdfasdsdfasdf</p></div>
-            <form>
                 <div>
-                    <input type="radio" id="address1">
-                    <label for="">Pickup atNorth Anchorage North Anchorage
-                        Available Today at a store 6 miles away
-                        Eligible for curbside pickup
-                        </label>
+                    <select id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <div id="remove">Remove</div>
+                    <div id="save">Save</div>
                 </div>
                 <div>
-                    <input type="radio" id="address2">
-                    <label for="">Delivery to96939 96939 
-                        Unavailable in your area</label>
+                    <div id="price">
+
+                    </div>
                 </div>
-            </form>
+            </div>
         </div>
         <div id="saved-items">
             <div>
@@ -104,21 +108,25 @@
         <div>
         <h2>Order Summary</h2>
         <div class="hr"></div>
-        <div>
+        <div class="flexbox">
             <h4>Original Price</h4>
+            <h4 id="originalPrice"></h4>
         </div>
-        <div>
+        <div class="flexbox">
             <h4>Saving</h4>
+            <h4 id="saving"></h4>
         </div>
-        <div>
+        <div class="flexbox">
             <h4>Store Pickup</h4>
+            <p id="storepickup"></p>
         </div>
         <div>
             <a href="https://www.bestbuy.com/site/help-topics/sales-tax/pcmcat204400050008.c?id=pcmcat204400050008">Estimated Sales Tax</a>
         </div>
         <div class="hr"></div>
-        <div id="total">
+        <div class="flexbox">
             <h3>Total</h3>
+            <h4 id="totalAmount"></h4>
         </div>
         <button id="checkout-button">Checkout</button>
         <br>
@@ -252,4 +260,4 @@
     </div>
 </body>
 </html>
-<!-- <script src="/bestbuy js/cart.js"></script> -->
+<script src="/bestbuy js/cart.js"></script>
