@@ -107,3 +107,35 @@ function mufunction()
 
 //     box2.append(Itemimg,Itemname);
 // })
+
+
+
+
+var sliderData2 = [
+    {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401738_sd.jpg;maxHeight=272;maxWidth=400",names:"Samsung - 55 Class 8000 Series LED 4K UHD Smart Tizen TV",},
+    {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401738_sd.jpg;maxHeight=272;maxWidth=400",names:"Samsung - 58 Class 7 Series LED 4K UHD Smart Tizen TV",},
+    {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453024_sd.jpg;maxHeight=272;maxWidth=400",names:"Insignia™ - 50 Class F30 Series LED 4K UHD Smart Fire TV",},
+    {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453024_sd.jpg;maxHeight=272;maxWidth=400",names:"Insignia™ - 50 Class F30 Series LED 4K UHD Smart Fire TV",},
+    {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6456/6456970_sd.jpg;maxHeight=272;maxWidth=400",names:"Samsung - 55 Class 8000 Series LED 4K UHD Smart Tizen TV",},
+     {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6456/6456970_sd.jpg;maxHeight=272;maxWidth=400",names:"Samsung - 58 Class 7 Series LED 4K UHD Smart Tizen TV",}, 
+     {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401738_sd.jpg;maxHeight=272;maxWidth=400",names:"Insignia™ - 50 Class F30 Series LED 4K UHD Smart Fire TV",},
+      {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453024_sd.jpg;maxHeight=272;maxWidth=400",names:"Samsung - 55 Class 8000 Series LED 4K UHD Smart Tizen TV",},
+      {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6456/6456970_sd.jpg;maxHeight=272;maxWidth=400",names:"Samsung - 58 Class 7 Series LED 4K UHD Smart Tizen TV",},
+      {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401738_sd.jpg;maxHeight=272;maxWidth=400",names:"Insignia™ - 50 Class F30 Series LED 4K UHD Smart Fire TV",},
+      {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6456/6456970_sd.jpg;maxHeight=272;maxWidth=400",names:"Samsung - 55 Class 8000 Series LED 4K UHD Smart Tizen TV",},
+      {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453024_sd.jpg;maxHeight=272;maxWidth=400",names:"Samsung - 58 Class 7 Series LED 4K UHD Smart Tizen TV",},
+      {images:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6456/6456970_sd.jpg;maxHeight=272;maxWidth=400",names:"Samsung - 55 Class 8000 Series LED 4K UHD Smart Tizen TV",},
+
+]
+
+sliderData2.map(function(ele){
+    var Sliderimage = document.createElement("img");
+    Sliderimage.src=ele.images;
+    var SliderName = document.createElement("p");
+    SliderName.innerText = ele.names;
+
+    var sliderboxes = document.createElement("div");
+    sliderboxes.append(Sliderimage,SliderName);
+
+    document.querySelector("#slider-foryou").append(sliderboxes);
+})
