@@ -6,27 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/322b14b2ff.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="/bestbuy css/navbar.css">
+    <link rel="stylesheet" href="/bestbuy css/cart.css">
 </head>
-<body bgcolor="#fff">
+<body>
     <header>
         <div id="nav1">
             <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/BestBuy_Logo_2020-190616.png;maxHeight=80;maxWidth=136">
+            <div id="menu">
             <i class="fa-solid fa-bars"></i>
+            <a href="Menu">Menu</a>
+            </div>
             <form>
                 <input type="text" placeholder="Search">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </form>
+            <div id="location">
             <i class="fa-solid fa-map-location-dot"></i>
-            <div id="cart">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <a href="cart.html">Cart</a>
+            <a href="">Aiea</a>
             </div>
+            <div id="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="cart.html">Cart</a>
+                </div>
         </div>
-        <div id="hr"></div>
+        <div class="hr"></div>
         <div id="nav2">
             <div id="shop">
-                <P><a href="shop.html">Shop</a></P>
+                <P><a href="shop.html">Top Deals</a></P>
+                <p><a href="deal_of_the_day.html">Deals of the day</a></p>
                 <P><a href="tataltech-membership">Totaltech membership</a></P>
                 <P><a href="credit-card.html">Credit card</a></P>
                 <P><a href="gift-card.html">Gift card</a></P>
@@ -39,17 +47,209 @@
             </div>
         </div>
     </header>
+
     <div id="content">
     <div id="cartItem">
+        <div>
         <h2>Your Cart</h2>
+        <div id="totaltech">
+            <div><img src="https://www.gerbenlaw.com/wp-content/uploads/trademarks/202108/90896366.jpg"></div>
+            <div>
+                <p><b>Unlock up to $59.761 in savings on protection</b></p>
+                <p>You’ll also get discounted services, extended returns, included 24 mo. <br>
+                    protection on most purchases and more with an active membership.</p>
+            </div>
+            <button>Unlock Savings</button>
+        </div>
+        <div id="addItems">
+            <div>
+                <img src="">
+            </div>
+            <div><p>adfsdgsfdgsdfasdsdfasdf</p></div>
+            <form>
+                <div>
+                    <input type="radio" id="address1">
+                    <label for="">Pickup atNorth Anchorage North Anchorage
+                        Available Today at a store 6 miles away
+                        Eligible for curbside pickup
+                        </label>
+                </div>
+                <div>
+                    <input type="radio" id="address2">
+                    <label for="">Delivery to96939 96939 
+                        Unavailable in your area</label>
+                </div>
+            </form>
+        </div>
+        <div id="saved-items">
+            <div>
+                <h1>Saved Items</h1>
+            </div>
+            <div class="hr"></div>
+            <div id="items-to-save"></div>
+        </div>
+        <div id="recently-viewed">
+            <div>
+                <h2>You are recently Viewed</h2>
+            </div>
+            <div class="hr"></div>
+            <div id="recent-items"></div>
+        </div>
+        </div>
     </div>
+
+    <!-- checkout part -->
+
     <div id="checkout">
-        <h2>Your payment</h2>
+        <div>
+        <h2>Order Summary</h2>
+        <div class="hr"></div>
+        <div>
+            <h4>Original Price</h4>
+        </div>
+        <div>
+            <h4>Saving</h4>
+        </div>
+        <div>
+            <h4>Store Pickup</h4>
+        </div>
+        <div>
+            <a href="https://www.bestbuy.com/site/help-topics/sales-tax/pcmcat204400050008.c?id=pcmcat204400050008">Estimated Sales Tax</a>
+        </div>
+        <div class="hr"></div>
+        <div id="total">
+            <h3>Total</h3>
+        </div>
+        <button id="checkout-button">Checkout</button>
+        <br>
+        <br>
+        <button id="paypal">Paypal</button>
+        <p><a href="account.html">Sign in or create an account now </a>to get My Best Buy™ Points</p>
+        <div class="hr"></div>
+        <div id="apply-card">
+            <div>
+                <img src="https://www.bestbuy.com/~assets/bby/_com/MBBCC_MBBVC_2018_RGB-947585d1258e6806d8eeb072b8d2ad6a.png">
+                <br>
+                <a href="credit-card.html">Show me how</a>
+            </div>
+            <div>
+                <p><b>10% back in rewards </b>on first day of purchases for new My Best Buy® Credit Card members</p>
+                
+                <p><b>$73.34/mo.* </b> monthly payments with <b>12 month financing</b> on this purchase of $879.98</p>
+            </div>
+        </div>
+        <div class="hr"></div>
+        <p><b>Looking for a lease to own option?</b></p>
+        <p>Enjoy the tech you want today. <a href="exammple.html">Learn more > </a></p>
+        <div class="hr"></div>
+        <div id="bottom-checkout">
+        <p><b>Buying a gift for someone special?</b> </p>
+        <p>Gift options can be added in checkout.</p>
+        <p><a href="example.html">Learn more ></a></p>
+        </div>
     </div>
+    </div>
+    </div>
+    <div id="track">
+        <div>
+            <i class="fa-solid fa-circle-question"></i><br><br>
+            <a href="example.com">Visit Our Support Center</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-box"></i><br><br>
+            <a href="example.com">Check Your Order Status</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-truck"></i><br><br>
+            <a href="example.com">Shipping, Delivery & Store Pickup</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i><br><br>
+            <a href="example.com">Returns & Exchanges</a>
+        </div>
+    </div>
+    <div class="hr serviceline"></div>
+    <div id="services">
+        <div id="service-links">
+            <div>
+                <h2>Order & Purchases</h2>
+                <a href="">Check Order Status</a><br><br>
+                <a href="">Shipping, Delivery & Pickup</a><br><br>
+                <a href="">Returns & Exchanges</a><br> <br>
+                <a href="">Price Match Guarantee</a><br> <br>
+                <a href="">Trade-In Program</a><br> <br>
+                <a href="">Trade-In Program</a><br> <br>
+                <a href="">Gift Cards</a><br> <br>
+            </div>
+            <div>
+                <h2>Support & Services</h2>
+                <a href="">Visit our Support Center</a><br> <br>
+                <a href="">Shop with an Expert</a><br> <br>
+                <a href="">Schedule a Service</a><br> <br>
+                <a href="">Manage an Appointment</a><br> <br>
+                <a href="">Protection & Support Plans</a><br> <br>
+                <a href="">Haul Away & Recycling</a><br> <br>
+                <a href="">Contact Us</a><br> <br>
+            </div>
+            <div>
+                <h2>Partnership</h2>
+                <a href="">Affiliate Program</a><br> <br>
+                <a href="">Advertise with Us</a><br> <br>
+                <a href="">Developers</a><br> <br>
+                <a href="">Best Buy Health</a><br> <br>
+                <a href="">Best Buy Education</a><br> <br>
+                <a href="">Best Buy Buiseness</a><br> <br>
+            </div>
+            <div>
+                <h2>Payment Options</h2>
+                <a href="">My Best Buy® Credit Card</a><br> <br>
+                <a href="">Pay Your Bill ar Citibank</a><br> <br>
+                <a href="">Lease to Own</a><br> <br>
+            </div>
+            <div>
+                <h2>Rewards & Membership</h2>
+                <a href="">Best Buy Totaltech</a><br> <br>
+                <a href="">My Best Buy</a><br> <br>
+                <a href="">View Point & Certificates</a><br> <br>
+                <a href="">Member Offers</a><br> <br>
+            </div>
+            <div>
+                <h2>About Best Buy</h2>
+                <a href="">Corporate Information</a><br> <br>
+                <a href="">Careers</a><br> <br>
+                <a href="">Corporate Responsibility & Sustainability</a><br> <br>
+                <a href="">Discover & Learn</a><br> <br>
+            </div>
+        </div>
+        <div id="contact">
+            <div>
+                <a href="account.html">Signup & login account</a>
+                <div class="hr serviceline"></div>
+                <h3>Get the latest deals and more</h3>
+                <input type="email" placeholder="Enter Email Address">
+                <button type="submit">Signup</button>
+                <div class="hr serviceline"></div>
+                <div id="app">
+                <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/gl-36766-fs-bbypay-app-pol_der-94379.png">
+                <div>
+                <h2>Best Buy App</h2>
+                <a href="">Learn more</a>
+                </div>
+                </div>
+                <div class="hr serviceline"></div>
+                <div id="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="hr serviceline"></div>
+                <div style="margin-bottom: 50px;">Blogs & More</div>
+
+            </div>
+        </div>
     </div>
 </body>
 </html>
-
-<script>
-
-</script>
+<!-- <script src="/bestbuy js/cart.js"></script> -->
