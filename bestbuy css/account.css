@@ -148,6 +148,7 @@ img {
     margin: -8px;
 }
 #footChild{
+    /* cursor: pointer; */
     /* height: 100px; */
     margin: 80px 0px 0px 0px;
     background-color: white;
