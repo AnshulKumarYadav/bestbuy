@@ -58,6 +58,7 @@ bonusData.map(function(elem){
 
 function mufunction(elem)
 {
+    alert("Item added to cart");
     arrObj.push(elem);
     // console.log(arrObj)
     localStorage.setItem("cartData",JSON.stringify(arrObj));
