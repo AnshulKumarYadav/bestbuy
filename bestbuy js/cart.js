@@ -63,7 +63,7 @@ var originalprice =  document.querySelector("#originalPrice");
 // console.log(sumall);
 var saving = document.querySelector("#saving").innerText=Savesum;
 document.querySelector("#storepickup").innerText="FREE";
- var total = eval(sumall-Savesum);
+ var total = Math.ceil(sumall-Savesum);
  document.querySelector("#totalAmount").innerText=total;
 
 
