@@ -6,17 +6,17 @@ html{
 
 #first{
     display: flex;
-    width: 145rem;
-    height: 35rem;
-   margin-left: 1.7rem;
+    width: 132rem;
+    height: 30rem;
+    padding-left: 1rem;
     justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .img2{
-    width: 19rem;
-    height: 35rem;
+    width: 17rem;
+    height: 30rem;
     
 }
 #div1{
@@ -28,9 +28,9 @@ html{
  
 }
 .h11{
-    /* width: 2rem; */
-    font-size: 2.8rem;
-    padding-left: 1.5rem;
+    width: 30rem;
+    font-size: 2.4rem;
+    
     line-height: 4rem;
    
       
@@ -38,7 +38,7 @@ html{
 #p1{
    font-size: 1.3rem;
    padding-left: 0rem;
-   width: 35rem;
+   width: 25rem;
    line-height: 1.5rem;
    font-weight: none;
 
@@ -48,7 +48,7 @@ a{
     
 }
 .btn1{
-    margin-left: 1.5rem;
+    /* margin-left: 1.5rem; */
    height: 3.3rem;
    width:18rem;
    font-size: 1.4rem;
@@ -62,7 +62,7 @@ a{
 }   
     
 #div11{
-    width: 95rem;
+    width: 82rem;
     background-image: url('https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/pm-human-blue-full-bleed-2000x305-212423.png') ;
   
 } 
@@ -73,7 +73,7 @@ a{
     height: 20rem;
    
     margin-top: 4rem;
-    margin-left: 19rem;
+    margin-left: 15rem;
    
 }
 #div11>div>div{
@@ -150,7 +150,7 @@ span{
      height: 11rem;
      width: 106rem;
      /* border: 1px solid black; */
-    margin-left: 21.5rem;
+    margin-left: 14rem;
      margin-top: 4rem;
      background-color: #e0e6ef;
 }
@@ -173,7 +173,7 @@ span{
    width: 20rem;
    height:10rem ;
    font-weight: 700;
-   /* margin-top: 48px; */
+   margin-top: 48px;
 
    padding-top: 1.5rem;
    padding-left: 2rem;
@@ -218,33 +218,33 @@ span{
    font-size: 1.4rem;
    margin-left: .1rem;
    font-weight: 5;
-   margin-top: -0.5%;
+   margin-top: -3.8rem;
 }
 #new22{
   display: flex;
   
-  /* gap: 50rem; */
+  gap: 50rem;
  
 }    
 .newh33{
    font-family: Arial, Helvetica, sans-serif;
-   margin-left: 22rem;
-   /* width: 60rem; */
+   margin-left: 14rem;
+   width: 60rem;
    font-size: 2.2rem;
 }
 #new22>a{
-  /* width: 50rem; */
+  width: 50rem;
   padding-top: 3.5rem;
   text-decoration: none;
   font-family: sans-serif;
   font-size: 1.5rem;
-  margin-left: 54.5rem;
+  margin-left: -1rem;
 }
 #new33{
   display: grid;
   grid-template-columns: repeat(3, 35rem);
   grid-template-rows: repeat(2, 40rem);
-  margin-left: 21rem;
+  margin-left: 15rem;
   margin-top: 2rem;
  
   
@@ -264,7 +264,7 @@ span{
   display: flex;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 2rem;
+  margin-left: 0rem;
   margin-top: 4rem;
   font-size: 1.4rem;
   color: #0046be;
@@ -274,7 +274,7 @@ span{
 }
 p{
 font-family: Arial, Helvetica, sans-serif;
-margin-left: 2.1rem;
+
 font-size: 1.3rem;
 }
 .btn2{
@@ -285,7 +285,7 @@ font-size: 1.3rem;
   background-color: #0046be;
   border: none;
  border-radius: .3rem;
-margin-left: 2.2rem;
+
   
 }
 #btn{
@@ -294,16 +294,16 @@ margin-left: 2.2rem;
 #line1{
   width: 106rem;
   border: .1rem solid grey;
-  margin-left: 21.8rem;
+  margin-left: 14rem;
 }
 #line2{
   width: 106rem;
   border: .1rem solid grey;
-  margin-left: 21.8rem;
+  margin-left: 14rem;
   margin-top: 8rem;
 }
 .img5{
-  margin-left: 22rem;
+  margin-left: 15rem;
   margin-top: 10rem;
 }
 #sec1{
@@ -320,7 +320,7 @@ margin-left: 2.2rem;
 }
 #sec1>div>p{
   width: 55rem;
-  padding-left: 4rem;
+  padding-left: 6rem;
 
 }
 #sec1>div>button{
@@ -337,7 +337,7 @@ margin-left: 2.2rem;
 }
 .newh34{
 font-family: Arial, Helvetica, sans-serif;
-   padding-left: 22rem;
+   padding-left: 14rem;
    width: 70rem;
    font-size: 2.2rem;
    padding-top: 6rem;
@@ -345,7 +345,7 @@ font-family: Arial, Helvetica, sans-serif;
 #line3{
   width: 106rem;
   border: .1rem solid grey;
-  margin-left: 21.8rem;
+  margin-left: 14rem;
   margin-top: -1rem;
 }
 .visa{
@@ -361,7 +361,7 @@ font-family: Arial, Helvetica, sans-serif;
   gap: 0rem;
   justify-content: space-around;
   
-  margin-left: 50rem;
+  margin-left: 40rem;
   margin-top: 4rem;
   line-height: .5rem;
   
@@ -386,7 +386,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 table{
-  margin-left: 21rem;
+  margin-left: 14rem;
   border: .1rem solid grey;
   
   
@@ -400,7 +400,7 @@ th{
 
 }
 #th1{
-margin-right: 91rem;
+margin-right: 90rem;
  font-size: 1.4rem;
  font-weight:  bold;
  font-family:  sans-serif 
@@ -473,31 +473,33 @@ background-color: #ffe000;
 color: black;
 font-size: 1.8rem;
 font-weight: 600;
-margin-left: 20.8rem;
+margin-left: 14rem;
 margin-top: 1rem;
 border: none;
 }
 .an1{
-margin-left: 22.5rem;
+margin-left: 15rem;
 font-size: 1.5rem;
 color: #5057d1;
 }
 .newh185{
   display: flex;
   justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
   gap: 50rem;
-  margin-left: -104rem;
+  margin-left: -80rem;
   margin-top: 5rem;
+  font-size: 2.2rem;
 }  
 .h333{
-   margin-left: 21rem;
+   margin-left: 14rem;
    font-family: sans-serif;
-   font-size:1.8rem;
+   font-size:1.6rem;
    width: 78rem;
    margin-top: 3rem;
 }  
 .an123{
-margin-left: 19rem;
+margin-left: 14rem;
 font-size: 1.4rem;
 font-weight: bold;
 
@@ -505,7 +507,7 @@ font-weight: bold;
 .my{
   width: 20rem;
   height: 7rem;
-  margin-left: 104rem;
+  margin-left: 98rem;
   margin-top: -8rem;
  
 }
@@ -523,7 +525,7 @@ font-weight: bold;
   height: 2rem;
   font-size: 1.8rem;
   justify-content: space-around;
-  margin-left: 46rem;
+  margin-left: 40rem;
   font-family: sans-serif;
   font-weight: bold;
 }
@@ -568,6 +570,8 @@ font-family: sans-serif;
 #mz1{
 display: flex;
 justify-content: center;
+font-size: 1.3rem;
+
 }
 #tda>p{
 margin-left: 10rem;
@@ -584,7 +588,7 @@ margin-left: 2.2rem;
 display: grid;
 grid-template-columns: repeat(4, 26.5rem);
 grid-template-rows: repeat(1, 30rem);
-margin-left: 21rem;
+margin-left: 14rem;
 margin-top: 4rem;
 }
 #container5>div{
@@ -596,7 +600,7 @@ font-size: 2.2rem;
 }
 .pl{
 font-size: 1.6rem;
-padding-right: 20rem;
+/* padding-right: 20rem; */
 width: 22rem;
 margin: 0rem 0rem .8rem;
 line-height: 1.7rem;
@@ -620,8 +624,8 @@ line-height: .1rem;
 
 }
 #para{
-width: 71%;
-margin-left: 21rem;
+width: 105rem;
+margin-left: 14rem;
 margin-top: 10rem;
 font-family: Arial, Helvetica, sans-serif;
 }
@@ -636,7 +640,7 @@ line-height: 1.7rem;
 }
 #container6{
 height: 93rem;
-width: 146.5rem;
+width: 134rem;
 background-color: #f0f2f4;
 margin-top: 18rem;
 }
@@ -655,25 +659,29 @@ margin-top: 5rem;
 width: 6rem;
 height: 6rem;
 color: grey;
-margin-left: 9rem;
+margin-left: 5rem;
 }
 .anc22{
 text-decoration: none;
-padding-left: 4rem;
+padding-left: 1.2rem;
+font-size: 1.6rem;
+font-weight: 600;
 }
 .anc23{
 text-decoration: none;
-padding-left: 0rem;
+margin-left: -1.2rem;
+font-size: 1.6rem;
+font-weight: 600;
 }
 #line4{
-width: 141rem;
+width: 128rem;
 border: .1rem solid grey;
-margin-left: 3rem;
+margin-left: 2rem;
 margin-top: -70rem;
 }
 #container8{
 display: flex;
-margin-left: 4.3rem;
+/* margin-left: 4.3rem; */
 margin-top: -45rem;
 line-height: 2rem;
 }
@@ -695,7 +703,7 @@ text-decoration: none;
 font-size: 1.5rem;
 }
 #line5{
-  width: 141rem;
+  width: 127rem;
 border: .1rem solid grey;
 margin: auto;
 
@@ -703,7 +711,7 @@ margin: auto;
 #container10{
 display: flex;
 justify-content: space-between;
-width: 140rem;
+width: 130rem;
 margin-left: 2.2rem;
 }
 #container10>div{
@@ -725,7 +733,7 @@ color: #5057d1;
 }
 .lastpara{
 font-family: Arial, Helvetica, sans-serif;
-width: 140rem;
+width: 120rem;
 font-size: 1.45rem;
 padding-left: 2rem;
 padding-top: 2rem;
@@ -734,16 +742,17 @@ padding-top: 2rem;
 width: .1rem;
 height: 8rem;
 padding-left: 0%;
+margin-top: -1rem;
 
 }
 #img98{
 width: .1rem;
 height: 8rem;
-margin-top: 18%;
+margin-top: 10rem;
 padding-right: 18%;
 }
 #or{
-margin-top: 13%;
+margin-top: 7rem;
 padding-right: 8rem;
 margin-left: -19.5%;
 font-size: 2.2rem;
@@ -753,13 +762,93 @@ color: white;
     
     width: 40rem;
     height: 44rem;
-    margin-left: 100rem;
+    margin-left: 92rem;
     margin-top: 2rem;
     background-color: #ffffff;
+    padding-top: 2rem;
+}
+#container15>div>a{
+  font-size: 1.5rem;
+  text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2rem;
+  color: #5057d1;
 }
 #imgok{
   display: flex;
+  justify-content: space-evenly;
 }
+#imgok>img{
+  height: 3.3rem;
+  width: 3.3rem;
+  margin-top: 2rem;
+}
+#lineos{
+  border: .1rem solid grey;
+  width: 36rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+#lineok{
+  border: .1rem solid grey;
+  width: 36rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#lineoq{
+  border: .1rem solid grey;
+  width: 36rem;
+  margin-left: 2rem;
+  margin-top: 3.5rem;
+}
+#lineop{
+  border: .1rem solid grey;
+  width: 36rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+#signh3{
+  font-size: 2rem;
+  margin-left: 2rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input{
+  height: 3rem;
+  width: 20rem;
+  margin-left: 2rem;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+}
+#singh3>input>button{
+  height: 22rem;
+}
+#imgh1234{
+  width:5.2rem;
+  margin-left: 2rem;
+ 
+}
+#imgh123{
+  display: flex;
+  line-height: 0rem;
+}
+#imgh123>div{
+  margin-top: 2rem;
+  
+}
+#imgh123>div>h2{
+  font-size: 2.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#imgh123>div>a{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #5057d1;
+  text-decoration: none;
+}
+
 @media(max-width:998px){
   html{
     font-size: 55%;
