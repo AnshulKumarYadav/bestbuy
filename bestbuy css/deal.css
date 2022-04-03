@@ -180,16 +180,434 @@
    display: flex;
    justify-content: space-around;
    margin-top: 30px;
+   margin-bottom:50px;
+   border-bottom:1px solid black;
   }
   #slider-foryou>div{
     width: 200px;
     height: 250px;
   
   }
+  #slider-foryou>div:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+  }
   #slider-foryou img{
     width: 200px ;
     height: 150px;
   }
+
+
+
+
+
+
+  .lowerxx-section{
+    height:550px;
+    width:100%;
+    margin:auto;
+    display:flex;
+    margin-bottom:30px;
+    }
+    .box67{
+    height:200px;
+    width:70%;
+    margin-bottom:60px;
+    }
+    .box68{
+    height:200px;
+    width:80%;
+    margin:auto;
+    display:flex;
+    margin-top:-10px;
+    margin-bottom:120px;
+    color:black;
+    }
+    .box69{
+    width:90%;
+    height:80%;
+    margin:auto;
+    color:black;
+    }
+    .box69>ul>button{
+      background-color:white;
+      width:179px;
+      text-align:left;
+      border:0px;
+      color:blue;
+    }
+    .box69>ul>button:hover{
+      text-decoration: underline;
+      color:grey;
+    }
+    .box70{
+    width:90%;
+    height:80%;
+    margin:auto;
+    color:black;
+    }
+    .box70>ul>button{
+      background-color:white;
+      text-align:left;
+      border:0px;
+      width:179px;
+      color:blue;
+    }
+    .box70>ul>button:hover{
+      text-decoration: underline;
+      color:grey;
+    }
+    .box71{
+    width:90%;
+    height:80%;
+    margin:auto;
+    color:black;
+    }
+    .box71>ul>button{
+      background-color:white;
+      text-align:left;
+      border:0px;
+      width:179px;
+      color:blue;
+    }
+    .box71>ul>button:hover{
+      text-decoration: underline;
+      color:grey;
+    }
+    .box72{
+    height:200px;
+    width:80%;
+    margin:auto;
+    display:flex;
+    margin-bottom:80px;
+    color:black;
+    }
+    .box73{
+    width:90%;
+    height:80%;
+    margin:auto;
+    color:black;
+    }
+    .box73>ul>button{
+      background-color:white;
+      text-align:left;
+      border:0px;
+      width:179px;
+      color:blue;
+    }
+    .box73>ul>button:hover{
+      text-decoration: underline;
+      color:grey;
+    }
+    .box74{
+    width:90%;
+    height:80%;
+    margin:auto;
+    color:black;
+    }
+    .box74>ul>button{
+      background-color:white;
+      text-align:left;
+      border:0px;
+      width:179px;
+      color:blue;
+    }
+    .box74>ul>button:hover{
+      text-decoration: underline;
+      color:grey;
+    }
+    .box75{
+    width:90%;
+    height:80%;
+    margin:auto;
+    color:black;
+    }
+    .box75>ul>button{
+      background-color:white;
+      text-align:left;
+      border:0px;
+      width:179px;
+      color:blue;
+    }
+    .box75>ul>button:hover{
+      text-decoration: underline;
+      color:grey;
+    }
+    
+    
+    
+    
+    .box79{
+    height:550px;
+    width:30%;
+    margin:auto;
+    }
+    .box80{
+    width:60%;
+    margin:auto;
+    margin-bottom:60px;
+    color:#6E71CC;
+    }
+    .box80>button{
+    width:200px;
+    margin-top:25px;
+    background-color:white;
+    color:rgb(95, 95, 198);
+    border:0px;
+    margin-left:-07.5px;
+    }
+    .box80>button:hover{
+      text-decoration: underline;
+      color:grey;
+    }
+    .box81{
+    width:100%;
+    margin:auto;
+    color:black;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    margin-bottom:20px;
+    }
+    .box81>button{
+      width:100px;
+      height:30px;
+      margin-top:25px;
+      background-color:blue;
+      color:white;
+      border:0px;
+      border-radius:5px;
+      }
+      .box81>button:hover{
+        text-decoration: underline;
+        color:grey;
+      }
+      .box81>input{
+        width:260px;
+      }
+    .box82{
+    width:100%;
+    margin:auto;
+    display:flex;
+    color:black;
+    
+    border-bottom:1px solid black;
+    margin-bottom:20px;
+    }
+    .box83{
+    width:100%;
+    margin:auto;
+    color:black;
+    }
+    .box84{
+    width:100%;
+    margin:auto;
+    color:black;
+    }
+    .box84>button{
+    background-color:white;
+    color:blue;
+    border:0px;
+    margin-left:-38px;
+    }
+    .box84>button:hover{
+      text-decoration: underline;
+      color:grey;
+    }
+    .box85{
+    width:100%;
+    height:85px;
+    margin:auto;
+    display:flex;
+    color:black;
+    
+    border-bottom:1px solid black;
+    }
+    .box1000>button{
+      background-color:white;
+      border:0px;
+      margin-left:-12px;
+      color:blue;
+    }
+    .box1000>button:hover{
+      text-decoration: underline;
+      color:grey;
+    }
+    
+    
+    
+    
+    .morektopk-section{
+      height:50px;
+      width:100%;
+      margin:auto;
+      display:flex;
+      border-bottom:1px solid black;
+      margin-top:80px;
+      }
+      .box1001{
+      width:50%;
+      height:100%;
+      padding-left:140px;
+      color:white;
+      display:flex;
+      }
+      .box1001>p{
+        color:black;
+        width:250px;
+        margin-top:5px;
+      }
+      .box1001>button{
+        color:blue;
+        width:209px;
+        background-color:white;
+        border:1px solid white;
+        margin-left:-72px;
+      }
+      .box1001>button:hover{
+        text-decoration: underline;
+        color:grey;
+      }
+          .box1002{
+          width:50%;
+          height:100%;
+          padding-left:650px;
+          display:flex;
+          color:white;
+          }
+          .box1002>p{
+            color:white;
+          }
+          .box1002>button{
+            color:blue;
+            width:118px;
+            background-color:white;
+            border:1px solid white;
+            padding:-30px;
+          }
+          .box1002>button:hover{
+            text-decoration: underline;
+            color:grey;
+          }
+    
+    
+    
+    
+          .morekktopkk-section{
+            height:50px;
+            width:100%;
+            margin:auto;
+            }
+            .box1003{
+            width:100%;
+            height:100%;
+            color:white;
+            display:flex;
+            margin-left:119px;
+            }
+            .box1005>button{
+              color:blue;
+              width:80px;
+              background-color:white;
+              margin-left:0px;
+              font-size:11px;
+              margin-left:10px;
+              border:0px solid black;
+            }
+            .box1005>button:hover{
+              text-decoration: underline;
+              color:grey;
+            }
+            .box1006>button{
+              color:blue;
+              width:110px;
+              background-color:white;
+              margin-left:0px;
+              font-size:11px;
+              margin-left:10px;
+              border:0px solid black;
+            }
+            .box1006>button:hover{
+              text-decoration: underline;
+              color:grey;
+            }
+            .box1007>button{
+              color:blue;
+              width:50px;
+              background-color:white;
+              margin-left:0px;
+              font-size:11px;
+              margin-left:10px;
+              border:0px solid black;
+            }
+            .box1007>button:hover{
+              text-decoration: underline;
+              color:grey;
+            }
+            .box1008>button{
+              color:blue;
+              width:107px;
+              background-color:white;
+              margin-left:0px;
+              font-size:11px;
+              margin-left:10px;
+              border:0px solid black;
+            }
+            .box1008>button:hover{
+              text-decoration: underline;
+              color:grey;
+            }
+            .box1009>button{
+              color:blue;
+              width:140px;
+              background-color:white;
+              margin-left:0px;
+              font-size:11px;
+              margin-left:10px;
+              border:0px solid black;
+            }
+            .box1009>button:hover{
+              text-decoration: underline;
+              color:grey;
+            }
+            .box1010>button{
+              color:blue;
+              width:192px;
+              background-color:white;
+              margin-left:0px;
+              font-size:11px;
+              margin-left:10px;
+              border:0px solid black;
+            }
+            .box1010>button:hover{
+              text-decoration: underline;
+              color:grey;
+            }
+            .box1011>button{
+              color:blue;
+              width:217px;
+              background-color:white;
+              margin-left:0px;
+              font-size:11px;
+              margin-left:10px;
+              border:0px solid black;
+            }
+            .box1011>button:hover{
+              text-decoration: underline;
+              color:grey;
+            }
+                .box1004{
+                width:100%;
+                height:100%;
+                padding-left:50px;
+                display:flex;
+                color:white;
+                }
+                .box1004>p{
+                  color:black;
+                  font-size:14px;
+                  margin-left:85px;
+                }
+    
 
 
   
