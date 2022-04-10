@@ -18,7 +18,7 @@ var bonusData = [
     {image:"https://www.cnet.com/a/img/resize/125d5e8f6872a2e770cb61b81a05340a8fd887fb/2020/08/03/b3dd8f41-cce2-4589-ab3a-73cbdf2af2fb/6291884cv18d.jpg?auto=webp&fit=crop&height=675&width=1200",name:"Cuisinart - 12-Piece Cookware Set - Stainless Steel",price:"$89.99",save:"$89.99",WasPrice:"wasPrice $299.99"}
 ]
 
-var arrObj = JSON.parse(localStorage.getItem("arrObj")) || [];
+var arrObj = JSON.parse(localStorage.getItem("cartData")) || [];
 
 bonusData.map(function(elem){
     var img = document.createElement("img");
